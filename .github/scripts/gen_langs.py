@@ -14,17 +14,20 @@ USER = "redtidev1918"
 OUT = "generated/languages.svg"
 MIN_PCT = 1.2  # 小于该比例的并入 Other
 
-COLORS = {
-    "TypeScript": "#3178C6", "Python": "#3776AB", "Dart": "#0175C2",
-    "JavaScript": "#F1E05A", "C++": "#F34B7D", "Go": "#00ADD8",
-    "HTML": "#E34C26", "CSS": "#563D7C", "SCSS": "#C6538C", "Shell": "#89E051",
-    "Dockerfile": "#384D54", "Makefile": "#427819", "Rust": "#DEA584",
-    "Vue": "#41B883", "Kotlin": "#A97BFF", "Java": "#B07219", "C": "#555555",
-    "C#": "#178600", "Ruby": "#701516", "PHP": "#4F5D95", "Swift": "#F05138",
-    "Lua": "#000080", "Zig": "#EC915C", "Other": "#8B949E",
-}
-FALLBACK = ["#8DD3C7", "#FFFFB3", "#BEBADA", "#FB8072", "#80B1D3",
-            "#FDB462", "#B3DE69", "#FCCDE5"]
+# 高对比分类色板（深色底）。按占比排名顺序分配，相邻色相刻意错开，
+# 避免 TypeScript/Python/Dart 这类同为蓝色的语言挤在一起分不清。
+PALETTE = [
+    "#58A6FF",  # 亮蓝
+    "#F0883E",  # 橙
+    "#3FB950",  # 绿
+    "#D29922",  # 金
+    "#BC8CFF",  # 紫
+    "#F778BA",  # 粉
+    "#39C5CF",  # 青
+    "#FF7B72",  # 珊瑚红
+    "#8B949E",  # 灰（Other）
+]
+OTHER_COLOR = "#8B949E"
 
 
 def api(path):
@@ -94,7 +97,7 @@ def main():
     rows = []
     for i, (lang, bytes_) in enumerate(top):
         pct = bytes_ / grand * 100
-        color = COLORS.get(lang, FALLBACK[i % len(FALLBACK)])
+        color = OTHER_COLOR if lang == "Other" else PALETTE[i % len(PALETTE)]
         rows.append((lang, pct, color))
 
     # ---- donut geometry ----
