@@ -1,6 +1,8 @@
 # hi
 
-主要在做内容平台相关的自动化小工具，Pixiv、Telegram/Telegraph、DeviantArt 这几块，
+vibe coding，写代码基本靠 AI。
+
+主要做内容平台相关的自动化小工具：Pixiv、Telegram/Telegraph、DeviantArt 这几块，
 偶尔写点 Flutter 桌面应用和小游戏。常用 TypeScript / Python / Dart。
 
 ## Pixiv
@@ -29,13 +31,9 @@
 - [GameLib](https://github.com/redtidev1918/GameLib) — 跟引擎无关的小游戏系统库
 - [paranote](https://github.com/redtidev1918/paranote) — 给任意网页加段落评论，顺带做阅读器
 
-## 数据
+## 贡献
 
 <div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=redtidev1918&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
-
-<br/><br/>
 
 <img src="https://ghchart.rshah.org/ff6b6b/redtidev1918" alt="Contributions" width="100%" />
 
