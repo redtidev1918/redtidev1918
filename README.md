@@ -30,4 +30,4 @@
 
 ## 语言分布
 
-![Top Languages](generated/languages.svg)
+![Top Languages](generated/languages.svg?v=1)

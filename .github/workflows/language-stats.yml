@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths-ignore:
       - "generated/**"
+      - "README.md"
 
 permissions:
   contents: write
@@ -23,9 +24,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/gen_langs.py
 
+      - name: Bust README image cache
+        run: |
+          # 换个 URL 版本号，GitHub CDN 才会重新取图，避免一直显示旧缓存
+          sed -i "s|generated/languages.svg?v=[0-9]*|generated/languages.svg?v=$(date +%s)|" README.md
+
       - name: Commit generated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/
+          git add generated/ README.md
           git commit -m "Update language stats [auto]" && git push || echo "No changes."
