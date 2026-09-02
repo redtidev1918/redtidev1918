@@ -1,9 +1,6 @@
 # hi
 
-瞎写点东西，主要是内容平台相关的自动化小工具：Pixiv、Telegram/Telegraph、DeviantArt，
-偶尔搞搞 Flutter 桌面应用和小游戏，常用 TypeScript / Python / Dart。
-
-代码大半靠 AI，我主要负责提需求和挑毛病。
+主要 vibe coding 点内容平台相关的自动化小工具，偶尔搞点 Flutter 桌面应用和小游戏。
 
 ## Pixiv
 
