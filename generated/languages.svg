@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="194" viewBox="0 0 495 194" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<rect x="0.5" y="0.5" width="494" height="193" rx="6" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="28" class="title">Languages</text>
+<rect x="20" y="46" width="455" height="10" rx="3" fill="#21262d"/>
+<rect x="20.0" y="46" width="189.2" height="10" fill="#3178C6"/><rect x="209.2" y="46" width="97.8" height="10" fill="#3776AB"/><rect x="307.0" y="46" width="94.0" height="10" fill="#0175C2"/><rect x="401.0" y="46" width="32.6" height="10" fill="#F1E05A"/><rect x="433.6" y="46" width="25.9" height="10" fill="#89E051"/><rect x="459.5" y="46" width="4.9" height="10" fill="#F34B7D"/><rect x="464.4" y="46" width="4.8" height="10" fill="#E34C26"/><rect x="469.2" y="46" width="2.7" height="10" fill="#FCCDE5"/><rect x="472.0" y="46" width="3.0" height="10" fill="#8DD3C7"/>
+<circle cx="26.0" cy="70" r="5" fill="#3178C6"/><text x="38.0" y="74" class="txt">TypeScript</text><text x="237.5" y="74" class="pct" text-anchor="end">41.6%</text><circle cx="253.5" cy="70" r="5" fill="#3776AB"/><text x="265.5" y="74" class="txt">Python</text><text x="465.0" y="74" class="pct" text-anchor="end">21.5%</text><circle cx="26.0" cy="92" r="5" fill="#0175C2"/><text x="38.0" y="96" class="txt">Dart</text><text x="237.5" y="96" class="pct" text-anchor="end">20.7%</text><circle cx="253.5" cy="92" r="5" fill="#F1E05A"/><text x="265.5" y="96" class="txt">JavaScript</text><text x="465.0" y="96" class="pct" text-anchor="end">7.2%</text><circle cx="26.0" cy="114" r="5" fill="#89E051"/><text x="38.0" y="118" class="txt">Shell</text><text x="237.5" y="118" class="pct" text-anchor="end">5.7%</text><circle cx="253.5" cy="114" r="5" fill="#F34B7D"/><text x="265.5" y="118" class="txt">C++</text><text x="465.0" y="118" class="pct" text-anchor="end">1.1%</text><circle cx="26.0" cy="136" r="5" fill="#E34C26"/><text x="38.0" y="140" class="txt">HTML</text><text x="237.5" y="140" class="pct" text-anchor="end">1.1%</text><circle cx="253.5" cy="136" r="5" fill="#FCCDE5"/><text x="265.5" y="140" class="txt">CMake</text><text x="465.0" y="140" class="pct" text-anchor="end">0.6%</text><circle cx="26.0" cy="158" r="5" fill="#8DD3C7"/><text x="38.0" y="162" class="txt">Other</text><text x="237.5" y="162" class="pct" text-anchor="end">0.7%</text>
+<style>
+.title{font-size:15px;font-weight:700;fill:#e6edf3}
+.txt{font-size:12.5px;fill:#c9d1d9}
+.pct{font-size:12.5px;fill:#8b949e}
+</style>
+</svg>

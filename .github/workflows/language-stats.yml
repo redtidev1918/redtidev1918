@@ -3,7 +3,7 @@ name: language-stats
 on:
   schedule:
     - cron: "17 2 * * *"   # 每天 UTC 02:17（北京 10:17）
-  workflow_dispatch:        # 支持手动触发
+  workflow_dispatch:
   push:
     branches: [main]
     paths-ignore:
@@ -18,15 +18,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: jstrieb/github-stats@github-action
-        id: stats
+      - name: Generate language stats SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EXCLUDE_FORKED_REPOS: "true"
+        run: python3 .github/scripts/gen_langs.py
 
       - name: Commit generated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add generated/
-          git commit -m "Update language stats [auto]" && git push || echo "No changes to commit."
+          git commit -m "Update language stats [auto]" && git push || echo "No changes."
