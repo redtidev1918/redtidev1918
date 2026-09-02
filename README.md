@@ -59,6 +59,27 @@
 
 ---
 
+## 📊 GitHub 数据 / Stats
+
+<div align="center">
+
+<img height="168" src="https://github-readme-stats.vercel.app/api?username=redtidev1918&show_icons=true&include_all_commits=true&theme=radical&hide_border=true" alt="GitHub stats" />
+<img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=redtidev1918&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top languages" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=redtidev1918&theme=radical&hide_border=true" alt="GitHub streak" />
+
+<br/><br/>
+
+**贡献热力 / Contributions**
+
+<img src="https://ghchart.rshah.org/ff6b6b/redtidev1918" alt="Contribution graph" width="100%" />
+
+</div>
+
+---
+
 <div align="center">
 
 ⭐️ 欢迎给喜欢的项目点 Star · *Star a project if you like it*
