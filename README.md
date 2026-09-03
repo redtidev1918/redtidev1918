@@ -24,7 +24,7 @@
 ## 其他
 
 - [NekoTime](https://github.com/redtidev1918/NekoTime) — 桌面上的悬浮小猫时钟
-- [GameLib](https://github.com/redtidev1918/GameLib) — 跟引擎无关的小游戏系统库
+- [ludum](https://github.com/redtidev1918/ludum) — 引擎无关、零运行时依赖的 TypeScript 游戏系统库（ECS / 资源 / 状态机 / 对话 / 加权随机 / 几何 / 交互），已发布 npm
 - [paranote](https://github.com/redtidev1918/paranote) — 给网页加段落评论，顺带当阅读器
 
 ## 语言分布
