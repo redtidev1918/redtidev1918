@@ -24,7 +24,6 @@
 ## 其他
 
 - [NekoTime](https://github.com/redtidev1918/NekoTime) — 桌面上的悬浮小猫时钟
-- [LuckyReels](https://github.com/redtidev1918/LuckyReels) — 类《幸运房东》的 roguelike 老虎机，Phaser + TS
 - [GameLib](https://github.com/redtidev1918/GameLib) — 跟引擎无关的小游戏系统库
 - [paranote](https://github.com/redtidev1918/paranote) — 给网页加段落评论，顺带当阅读器
 
