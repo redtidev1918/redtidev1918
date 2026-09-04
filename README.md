@@ -6,7 +6,7 @@
 
 - [PixivFlow](https://github.com/redtidev1918/PixivFlow) — Pixiv 自动下载
 - [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) — PixivFlow 的 React 前端
-- [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) — PixivFlow + TelePost 的低内存部署套件
+- [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) — PixivFlow + TelePost 部署套件（Go 单二进制 deploy CLI，Docker / Fly / 裸机 VPS，多 Bot + 低成本拆分）
 - [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter) — 取 Pixiv token 的库和命令行
 
 ## Telegram / Telegraph
