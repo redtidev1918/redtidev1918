@@ -4,9 +4,9 @@
 
 <div align="center">
 
-![stats](generated/stats.svg?v=1788650882)
+![stats](generated/stats.svg?v=1788650996)
 
-![Top Languages](generated/languages.svg?v=1788650882)
+![Top Languages](generated/languages.svg?v=1788650996)
 
 </div>
 
