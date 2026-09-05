@@ -1,4 +1,4 @@
-name: language-stats
+name: readme-stats
 
 on:
   schedule:
@@ -19,19 +19,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install tokei
+        run: |
+          mkdir -p .bin
+          curl -sL https://github.com/XAMPPRocky/tokei/releases/download/v12.1.2/tokei-x86_64-unknown-linux-gnu.tar.gz | tar xz -C .bin
+          chmod +x .bin/tokei
+          echo "$GITHUB_WORKSPACE/.bin" >> "$GITHUB_PATH"
+
       - name: Generate language stats SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/gen_langs.py
 
+      - name: Generate profile stats SVG (stars / LOC / repos / forks)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/gen_stats.py
+
       - name: Bust README image cache
         run: |
-          # 换个 URL 版本号，GitHub CDN 才会重新取图，避免一直显示旧缓存
           sed -i "s|generated/languages.svg?v=[0-9]*|generated/languages.svg?v=$(date +%s)|" README.md
+          sed -i "s|generated/stats.svg?v=[0-9]*|generated/stats.svg?v=$(date +%s)|" README.md
 
       - name: Commit generated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add generated/ README.md
-          git commit -m "Update language stats [auto]" && git push || echo "No changes."
+          git commit -m "Update profile stats [auto]" && git push || echo "No changes."

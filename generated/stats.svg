@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="692" height="116" viewBox="0 0 692 116" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<rect x="16" y="16" width="156" height="84" rx="8" fill="#161b22" stroke="#30363d"/><text x="30" y="42" class="title">Total Stars</text><text x="30" y="72" class="num" fill="#F1E05A" font-size="26">83</text><rect x="184" y="16" width="156" height="84" rx="8" fill="#161b22" stroke="#30363d"/><text x="198" y="42" class="title">Lines of Code</text><text x="198" y="72" class="num" fill="#58A6FF" font-size="26">205,550</text><rect x="352" y="16" width="156" height="84" rx="8" fill="#161b22" stroke="#30363d"/><text x="366" y="42" class="title">Repositories</text><text x="366" y="72" class="num" fill="#3FB950" font-size="26">15</text><rect x="520" y="16" width="156" height="84" rx="8" fill="#161b22" stroke="#30363d"/><text x="534" y="42" class="title">Forks</text><text x="534" y="72" class="num" fill="#F0883E" font-size="26">9</text>
+<style>
+.title{font-size:11px;font-weight:600;letter-spacing:0.5px;fill:#8b949e}
+.num{font-weight:700;fill:#e6edf3}
+</style>
+</svg>
