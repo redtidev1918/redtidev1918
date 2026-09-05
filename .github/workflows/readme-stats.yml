@@ -43,6 +43,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/gen_stats.py
 
+      - name: Refresh repo list in README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/gen_repos.py
+
       - name: Bust README image cache
         run: |
           sed -i "s|generated/languages.svg?v=[0-9]*|generated/languages.svg?v=$(date +%s)|" README.md
