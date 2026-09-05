@@ -20,6 +20,7 @@
 - [daviewer](https://github.com/redtidev1918/daviewer) — 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows
 - [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader) — DeviantArt 批量下载
 - [dakit](https://github.com/redtidev1918/dakit) — DeviantArt 的 Dart / Flutter SDK
+- [deviantdrop](https://github.com/redtidev1918/deviantdrop) — Telegram Bot，发 DeviantArt 作品链接，回图片/视频/GIF
 
 ## 其他
 
