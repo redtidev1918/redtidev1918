@@ -76,7 +76,11 @@ def line(repo):
     name = repo["name"]
     stars = repo["stargazers_count"]
     desc = DESC.get(name) or short(repo.get("description") or "")
-    return f"- **[{name}]({repo['html_url']})** ⭐ {stars} — {desc}"
+    # 文档链接优先用 homepage（官网/文档站/包页面），没有就用 README
+    doc = repo.get("homepage") or (
+        f"https://github.com/{USER}/{name}/blob/{repo['default_branch']}/README.md"
+    )
+    return f"- **[{name}]({repo['html_url']})** [文档]({doc}) ⭐ {stars} — {desc}"
 
 
 def build(repos):
