@@ -15,6 +15,11 @@ on:
 permissions:
   contents: write
 
+# 多个仓库同时推送时只跑最新一次，避免重复生成互相抢着提交
+concurrency:
+  group: readme-stats
+  cancel-in-progress: true
+
 jobs:
   stats:
     runs-on: ubuntu-latest
