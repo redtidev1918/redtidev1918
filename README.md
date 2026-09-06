@@ -10,6 +10,18 @@
   <img src="generated/languages.svg?v=1788653656" alt="languages">
 </p>
 
+## 下载
+
+直接能跑的项目，各平台二进制都在各自的 Releases 里：
+
+| 项目 | 说明 | 平台 | 下载 |
+| :--- | :--- | :--- | :--- |
+| [daviewer](https://github.com/redtidev1918/daviewer) | DeviantArt 客户端 | macOS / Windows / Android | [Releases](https://github.com/redtidev1918/daviewer/releases) |
+| [NekoTime](https://github.com/redtidev1918/NekoTime) | 桌面悬浮小猫时钟 | macOS / Windows / Linux | [Releases](https://github.com/redtidev1918/NekoTime/releases) |
+| [dakit](https://github.com/redtidev1918/dakit) | DeviantArt CLI（dakit-cli） | Linux / macOS / Windows | [Releases](https://github.com/redtidev1918/dakit/releases) |
+| [grafctl](https://github.com/redtidev1918/graf) | graf 的命令行工具 | macOS / Linux / Windows | [Releases](https://github.com/redtidev1918/graf/releases) |
+| [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) | 部署 CLI（单二进制） | macOS / Linux / Windows | [Releases](https://github.com/redtidev1918/pixivflow-telepost-deploy/releases) |
+
 ## 项目
 
 <!-- REPOS_START -->
