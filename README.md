@@ -3,11 +3,11 @@
 <p align="center">主要 vibe coding 点内容平台相关的自动化小工具，偶尔搞点 Flutter 桌面应用和小游戏。</p>
 
 <p align="center">
-  <img src="generated/stats.svg?v=1788655176" alt="stats">
+  <img src="generated/stats.svg?v=1788655424" alt="stats">
 </p>
 
 <p align="center">
-  <img src="generated/languages.svg?v=1788655176" alt="languages">
+  <img src="generated/languages.svg?v=1788655424" alt="languages">
 </p>
 
 ## 下载
@@ -46,7 +46,7 @@
 
 | 项目 | ⭐ | 说明 | 文档 |
 | :--- | :-: | :--- | :--- |
-| [daviewer](https://github.com/redtidev1918/daviewer) | 13 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [↗](https://github.com/redtidev1918/daviewer/releases) |
+| [daviewer](https://github.com/redtidev1918/daviewer) | 13 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [↗](https://redtidev1918.github.io/daviewer/) |
 | [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader) | 8 | DeviantArt 批量下载 | [↗](https://redtidev1918.github.io/deviantart-downloader/) |
 | [dakit](https://github.com/redtidev1918/dakit) | 0 | DeviantArt 的 Dart / Flutter SDK | [↗](https://pub.dev/packages/dakit_flutter) |
 | [deviantdrop](https://github.com/redtidev1918/deviantdrop) | 0 | Telegram Bot，发 DeviantArt 作品链接，回图片/视频/GIF | [↗](https://redtidev1918.github.io/deviantdrop/) |
