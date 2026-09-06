@@ -1,6 +1,7 @@
 <h1 align="center">redtidev1918</h1>
 
-<p align="center">主要 vibe coding 点内容平台相关的自动化小工具，偶尔搞点 Flutter 桌面应用和小游戏。</p>
+<p align="center">主要 vibe coding 一些自己感兴趣的项目。<br>
+目前以内容平台相关工具为主，也会做桌面应用、CLI、SDK 和游戏相关的东西，方向不固定。</p>
 
 <p align="center">
   <img src="generated/stats.svg?v=1788710061" alt="stats">
