@@ -2,9 +2,9 @@
 
 主要 vibe coding 点内容平台相关的自动化小工具，偶尔搞点 Flutter 桌面应用和小游戏。
 
-![stats](generated/stats.svg?v=1788652889)
+![stats](generated/stats.svg?v=1788652936)
 
-![Top Languages](generated/languages.svg?v=1788652889)
+![Top Languages](generated/languages.svg?v=1788652936)
 
 <!-- REPOS_START -->
 ## Pixiv
