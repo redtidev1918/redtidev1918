@@ -48,6 +48,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/gen_repos.py
 
+      - name: Wire new repos (notify workflow + token)
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: python3 .github/scripts/sync_repos.py
+
       - name: Bust README image cache
         run: |
           sed -i "s|generated/languages.svg?v=[0-9]*|generated/languages.svg?v=$(date +%s)|" README.md
