@@ -4,11 +4,11 @@
 目前以内容平台相关工具为主，也会做桌面应用、CLI、SDK 和游戏相关的东西，方向不固定。</p>
 
 <p align="center">
-  <img src="generated/stats.svg?v=1788726399" alt="stats">
+  <img src="generated/stats.svg?v=1788726459" alt="stats">
 </p>
 
 <p align="center">
-  <img src="generated/languages.svg?v=1788726399" alt="languages">
+  <img src="generated/languages.svg?v=1788726459" alt="languages">
 </p>
 
 ## 下载
