@@ -3,11 +3,11 @@
 <p align="center">主要 vibe coding 点内容平台相关的自动化小工具，偶尔搞点 Flutter 桌面应用和小游戏。</p>
 
 <p align="center">
-  <img src="generated/stats.svg?v=1788668612" alt="stats">
+  <img src="generated/stats.svg?v=1788669169" alt="stats">
 </p>
 
 <p align="center">
-  <img src="generated/languages.svg?v=1788668612" alt="languages">
+  <img src="generated/languages.svg?v=1788669169" alt="languages">
 </p>
 
 ## 下载
