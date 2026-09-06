@@ -80,7 +80,10 @@ def line(repo):
     doc = repo.get("homepage") or (
         f"https://github.com/{USER}/{name}/blob/{repo['default_branch']}/README.md"
     )
-    return f"- **[{name}]({repo['html_url']})** [文档]({doc}) ⭐ {stars} — {desc}"
+    return f"| [{name}]({repo['html_url']}) | {stars} | {desc} | [↗]({doc}) |"
+
+
+TABLE_HEAD = ["| 项目 | ⭐ | 说明 | 文档 |", "| :--- | :-: | :--- | :--- |"]
 
 
 def build(repos):
@@ -89,20 +92,21 @@ def build(repos):
 
     out = []
     for cat, names in CATEGORIES:
-        items = []
+        rows = []
         for n in names:
             if n in by_name:
-                items.append(line(by_name[n]))
+                rows.append(line(by_name[n]))
         if cat == "其他":
             for r in sorted(
                 (r for r in by_name.values() if r["name"] not in listed),
                 key=lambda x: -x["stargazers_count"],
             ):
-                items.append(line(r))
-        if items:
-            out.append(f"## {cat}")
+                rows.append(line(r))
+        if rows:
+            out.append(f"### {cat}")
             out.append("")
-            out.extend(items)
+            out.extend(TABLE_HEAD)
+            out.extend(rows)
             out.append("")
     return "\n".join(out).rstrip() + "\n"
 
