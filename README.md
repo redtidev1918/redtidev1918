@@ -4,11 +4,11 @@
 目前以内容平台相关工具为主，也会做桌面应用、CLI、SDK 和游戏相关的东西，方向不固定。</p>
 
 <p align="center">
-  <img src="generated/stats.svg?v=1788756959" alt="stats">
+  <img src="generated/stats.svg?v=1788758475" alt="stats">
 </p>
 
 <p align="center">
-  <img src="generated/languages.svg?v=1788756959" alt="languages">
+  <img src="generated/languages.svg?v=1788758475" alt="languages">
 </p>
 
 ## 下载
@@ -47,7 +47,7 @@
 
 | 项目 | ⭐ | 说明 | 文档 |
 | :--- | :-: | :--- | :--- |
-| [daviewer](https://github.com/redtidev1918/daviewer) | 13 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [↗](https://redtidev1918.github.io/daviewer/) |
+| [daviewer](https://github.com/redtidev1918/daviewer) | 14 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [↗](https://redtidev1918.github.io/daviewer/) |
 | [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader) | 8 | DeviantArt 批量下载 | [↗](https://redtidev1918.github.io/deviantart-downloader/) |
 | [dakit](https://github.com/redtidev1918/dakit) | 0 | DeviantArt 的 Dart / Flutter SDK | [↗](https://pub.dev/packages/dakit_flutter) |
 | [deviantdrop](https://github.com/redtidev1918/deviantdrop) | 0 | Telegram Bot，发 DeviantArt 作品链接，回图片/视频/GIF | [↗](https://redtidev1918.github.io/deviantdrop/) |
