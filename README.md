@@ -4,11 +4,11 @@
 目前以内容平台相关工具为主，也会做桌面应用、CLI、SDK 和游戏相关的东西，方向不固定。</p>
 
 <p align="center">
-  <img src="generated/stats.svg?v=1788767488" alt="stats">
+  <img src="generated/stats.svg?v=1788834217" alt="stats">
 </p>
 
 <p align="center">
-  <img src="generated/languages.svg?v=1788767488" alt="languages">
+  <img src="generated/languages.svg?v=1788834217" alt="languages">
 </p>
 
 ## 下载
@@ -30,7 +30,7 @@
 
 | 项目 | ⭐ | 说明 | 文档 |
 | :--- | :-: | :--- | :--- |
-| [PixivFlow](https://github.com/redtidev1918/PixivFlow) | 24 | Pixiv 自动下载 | [↗](https://redtidev1918.github.io/PixivFlow/) |
+| [PixivFlow](https://github.com/redtidev1918/PixivFlow) | 25 | Pixiv 自动下载 | [↗](https://redtidev1918.github.io/PixivFlow/) |
 | [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) | 1 | PixivFlow 的 React 前端 | [↗](https://redtidev1918.github.io/pixivflow-webui/) |
 | [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) | 0 | PixivFlow + TelePost 部署套件（Go 单二进制 deploy CLI，Docker / Fly / 裸机 VPS，多 Bot + 低成本拆分） | [↗](https://redtidev1918.github.io/pixivflow-telepost-deploy/) |
 | [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter) | 0 | 取 Pixiv token 的库和命令行 | [↗](https://www.npmjs.com/package/pixiv-token-getter) |
@@ -47,7 +47,7 @@
 
 | 项目 | ⭐ | 说明 | 文档 |
 | :--- | :-: | :--- | :--- |
-| [daviewer](https://github.com/redtidev1918/daviewer) | 14 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [↗](https://redtidev1918.github.io/daviewer/) |
+| [daviewer](https://github.com/redtidev1918/daviewer) | 15 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [↗](https://redtidev1918.github.io/daviewer/) |
 | [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader) | 8 | DeviantArt 批量下载 | [↗](https://redtidev1918.github.io/deviantart-downloader/) |
 | [dakit](https://github.com/redtidev1918/dakit) | 0 | DeviantArt 的 Dart / Flutter SDK | [↗](https://pub.dev/packages/dakit_flutter) |
 | [deviantdrop](https://github.com/redtidev1918/deviantdrop) | 0 | Telegram Bot，发 DeviantArt 作品链接，回图片/视频/GIF | [↗](https://redtidev1918.github.io/deviantdrop/) |
