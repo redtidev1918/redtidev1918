@@ -20,7 +20,7 @@
 | [daviewer](https://github.com/redtidev1918/daviewer) | DeviantArt 客户端 | Android / macOS / Windows | [Releases](https://github.com/redtidev1918/daviewer/releases) |
 | [NekoTime](https://github.com/redtidev1918/NekoTime) | 桌面悬浮猫娘时钟，支持自定义 GIF 主题 | macOS / Windows / Linux | [Releases](https://github.com/redtidev1918/NekoTime/releases) |
 | [dakit](https://github.com/redtidev1918/dakit) | DeviantArt CLI（dakit-cli） | Linux / macOS / Windows | [Releases](https://github.com/redtidev1918/dakit/releases) |
-| [grafctl](https://github.com/redtidev1918/graf) | graf 的命令行工具（tag 为 `v*-grafctl`） | macOS / Linux / Windows | [Releases](https://github.com/redtidev1918/graf/releases) |
+| [grafctl](https://github.com/redtidev1918/graf) | graf 的命令行工具 | macOS / Linux / Windows | [Releases](https://github.com/redtidev1918/graf/releases) |
 | [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) | 部署 CLI（单二进制） | macOS / Linux / Windows | [Releases](https://github.com/redtidev1918/pixivflow-telepost-deploy/releases) |
 
 ## 项目
