@@ -2,7 +2,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1788874463)
+![stats](generated/stats.svg?v=1788874491)
 
 ## Projects
 
