@@ -38,6 +38,27 @@ DESC = {
     "paranote": "给网页加段落评论，顺带当阅读器",
 }
 
+# 只有真正的文档站才放进「文档」列；repo homepage 没有链接类型信息。
+DOCS = {
+    name: f"https://redtidev1918.github.io/{name}/"
+    for name in (
+        "PixivFlow",
+        "pixivflow-webui",
+        "pixivflow-telepost-deploy",
+        "pixiv-token-getter",
+        "TelePost",
+        "telepress",
+        "graf",
+        "daviewer",
+        "deviantart-downloader",
+        "dakit",
+        "deviantdrop",
+        "NekoTime",
+        "ludum",
+        "paranote",
+    )
+}
+
 
 def api(path):
     req = urllib.request.Request(
@@ -76,11 +97,8 @@ def line(repo):
     name = repo["name"]
     stars = repo["stargazers_count"]
     desc = DESC.get(name) or short(repo.get("description") or "")
-    # 文档链接优先用 homepage（官网/文档站/包页面），没有就用 README
-    doc = repo.get("homepage") or (
-        f"https://github.com/{USER}/{name}/blob/{repo['default_branch']}/README.md"
-    )
-    return f"| [{name}]({repo['html_url']}) | {stars} | {desc} | [↗]({doc}) |"
+    doc = f"[文档]({DOCS[name]})" if name in DOCS else "—"
+    return f"| [{name}]({repo['html_url']}) | {stars} | {desc} | {doc} |"
 
 
 TABLE_HEAD = ["| 项目 | ⭐ | 说明 | 文档 |", "| :--- | :-: | :--- | :--- |"]
