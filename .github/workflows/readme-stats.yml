@@ -33,11 +33,6 @@ jobs:
           chmod +x .bin/tokei
           echo "$GITHUB_WORKSPACE/.bin" >> "$GITHUB_PATH"
 
-      - name: Generate language stats SVG
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/gen_langs.py
-
       - name: Generate profile stats SVG (stars / LOC / repos / forks)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -55,7 +50,6 @@ jobs:
 
       - name: Bust README image cache
         run: |
-          sed -i "s|generated/languages.svg?v=[0-9]*|generated/languages.svg?v=$(date +%s)|" README.md
           sed -i "s|generated/stats.svg?v=[0-9]*|generated/stats.svg?v=$(date +%s)|" README.md
 
       - name: Commit generated stats

@@ -1,64 +1,45 @@
-<h1 align="center">redtidev1918</h1>
+主要 vibe coding 一些自己感兴趣的项目。
 
-<p align="center">主要 vibe coding 一些自己感兴趣的项目。<br>
-目前以内容平台相关工具为主，也会做桌面应用、CLI、SDK 和游戏相关的东西，方向不固定。</p>
+目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-<p align="center">
-  <img src="generated/stats.svg?v=1788849759" alt="stats">
-</p>
+![stats](generated/stats.svg?v=1788849759)
 
-<p align="center">
-  <img src="generated/languages.svg?v=1788849759" alt="languages">
-</p>
-
-## 下载
-
-直接能跑的项目，各平台二进制都在各自的 Releases 里：
-
-| 项目 | 说明 | 平台 | 下载 |
-| :--- | :--- | :--- | :--- |
-| [daviewer](https://github.com/redtidev1918/daviewer) | DeviantArt 客户端 | Android / macOS / Windows | [Releases](https://github.com/redtidev1918/daviewer/releases) |
-| [NekoTime](https://github.com/redtidev1918/NekoTime) | 桌面悬浮猫娘时钟，支持自定义 GIF 主题 | macOS / Windows / Linux | [Releases](https://github.com/redtidev1918/NekoTime/releases) |
-| [dakit](https://github.com/redtidev1918/dakit) | DeviantArt CLI（dakit-cli） | Linux / macOS / Windows | [Releases](https://github.com/redtidev1918/dakit/releases) |
-| [grafctl](https://github.com/redtidev1918/graf) | graf 的命令行工具 | macOS / Linux / Windows | [Releases](https://github.com/redtidev1918/graf/releases) |
-| [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) | 部署 CLI（单二进制） | macOS / Linux / Windows | [Releases](https://github.com/redtidev1918/pixivflow-telepost-deploy/releases) |
-
-## 项目
+## Projects
 
 <!-- REPOS_START -->
 ### Pixiv
 
-| 项目 | ⭐ | 说明 | 文档 |
-| :--- | :-: | :--- | :--- |
-| [PixivFlow](https://github.com/redtidev1918/PixivFlow) | 25 | Pixiv 自动下载 | [文档](https://redtidev1918.github.io/PixivFlow/) |
-| [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) | 1 | PixivFlow 的 React 前端 | [文档](https://redtidev1918.github.io/pixivflow-webui/) |
-| [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) | 0 | PixivFlow + TelePost 部署套件（Go 单二进制 deploy CLI，Docker / Fly / 裸机 VPS，多 Bot + 低成本拆分） | [文档](https://redtidev1918.github.io/pixivflow-telepost-deploy/) |
-| [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter) | 0 | 取 Pixiv token 的库和命令行 | [文档](https://redtidev1918.github.io/pixiv-token-getter/) |
+| Project | Description |
+| :-- | :-- |
+| [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv 自动下载与任务调度 |
+| [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | PixivFlow 的 Web 前端 |
+| [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) | PixivFlow + TelePost 部署工具 |
+| [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv token 获取库与 CLI |
 
-### Telegram / Telegraph
+### Telegram / Publishing
 
-| 项目 | ⭐ | 说明 | 文档 |
-| :--- | :-: | :--- | :--- |
-| [TelePost](https://github.com/redtidev1918/TelePost) | 16 | Telegram 频道投稿机器人，带搜索、统计、标签 | [文档](https://redtidev1918.github.io/TelePost/) |
-| [telepress](https://github.com/redtidev1918/telepress) | 1 | 往 Telegraph 发文章和图的 Python 库，`pip install telepress` | [文档](https://redtidev1918.github.io/telepress/) |
-| [graf](https://github.com/redtidev1918/graf) | 0 | 自托管极简 Markdown 发布平台，兼容 Telegraph API，跑在 Cloudflare Workers + D1；附 grafctl 零依赖跨平台部署器 | [文档](https://redtidev1918.github.io/graf/) |
+| Project | Description |
+| :-- | :-- |
+| [**TelePost**](https://github.com/redtidev1918/TelePost) | Telegram 频道投稿机器人，支持搜索、统计和标签 |
+| [**telepress**](https://github.com/redtidev1918/telepress) | Telegraph 文章与图片发布 Python 库 |
+| [**graf**](https://github.com/redtidev1918/graf) | 兼容 Telegraph API 的自托管 Markdown 发布平台 |
 
 ### DeviantArt
 
-| 项目 | ⭐ | 说明 | 文档 |
-| :--- | :-: | :--- | :--- |
-| [daviewer](https://github.com/redtidev1918/daviewer) | 15 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [文档](https://redtidev1918.github.io/daviewer/) |
-| [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader) | 8 | DeviantArt 批量下载 | [文档](https://redtidev1918.github.io/deviantart-downloader/) |
-| [dakit](https://github.com/redtidev1918/dakit) | 0 | DeviantArt 的 Dart / Flutter SDK，附带 dakit 跨平台命令行 | [文档](https://redtidev1918.github.io/dakit/) |
-| [deviantdrop](https://github.com/redtidev1918/deviantdrop) | 0 | Telegram Bot，发 DeviantArt 作品链接，回图片/视频/GIF | [文档](https://redtidev1918.github.io/deviantdrop/) |
+| Project | Description |
+| :-- | :-- |
+| [**daviewer**](https://github.com/redtidev1918/daviewer) | DeviantArt 客户端，支持 Android / macOS / Windows |
+| [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | DeviantArt 批量下载器 |
+| [**dakit**](https://github.com/redtidev1918/dakit) | Dart / Flutter DeviantArt SDK 与 CLI |
+| [**deviantdrop**](https://github.com/redtidev1918/deviantdrop) | DeviantArt 链接解析与媒体回传 Telegram Bot |
 
-### 其他
+### Other
 
-| 项目 | ⭐ | 说明 | 文档 |
-| :--- | :-: | :--- | :--- |
-| [NekoTime](https://github.com/redtidev1918/NekoTime) | 18 | 桌面悬浮猫娘时钟，支持自定义 GIF 主题 | [文档](https://redtidev1918.github.io/NekoTime/) |
-| [ludum](https://github.com/redtidev1918/ludum) | 0 | 引擎无关、零运行时依赖的 TypeScript 游戏系统库（ECS / 资源 / 状态机 / 对话 / 加权随机 / 几何 / 交互），已发布 npm | [文档](https://redtidev1918.github.io/ludum/) |
-| [paranote](https://github.com/redtidev1918/paranote) | 2 | 给网页加段落评论，顺带当阅读器 | [文档](https://redtidev1918.github.io/paranote/) |
+| Project | Description |
+| :-- | :-- |
+| [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
+| [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关的 TypeScript 游戏系统库 |
+| [**paranote**](https://github.com/redtidev1918/paranote) | 网页段落评论与阅读工具 |
 <!-- REPOS_END -->
 
-数据每天自动更新，仓库有 push 也会刷新。
+可执行程序见各项目 Releases。

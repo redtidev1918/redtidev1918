@@ -16,7 +16,7 @@ import urllib.request
 USER = "redtidev1918"
 OUT = "generated/stats.svg"
 
-# ---- card theme (matches generated/languages.svg) ----
+# ---- card theme (GitHub dark palette) ----
 BG = "#161b22"
 BORDER = "#30363d"
 TITLE_COLOR = "#8b949e"
