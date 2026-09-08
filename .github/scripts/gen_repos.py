@@ -28,12 +28,12 @@ DESC = {
     "pixiv-token-getter": "取 Pixiv token 的库和命令行",
     "TelePost": "Telegram 频道投稿机器人，带搜索、统计、标签",
     "telepress": "往 Telegraph 发文章和图的 Python 库，`pip install telepress`",
-    "graf": "自托管的极简 Markdown 发布平台，兼容 Telegraph API",
+    "graf": "自托管极简 Markdown 发布平台，兼容 Telegraph API，跑在 Cloudflare Workers + D1；附 grafctl 零依赖跨平台部署器",
     "daviewer": "开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows",
     "deviantart-downloader": "DeviantArt 批量下载",
-    "dakit": "DeviantArt 的 Dart / Flutter SDK",
+    "dakit": "DeviantArt 的 Dart / Flutter SDK，附带 dakit 跨平台命令行",
     "deviantdrop": "Telegram Bot，发 DeviantArt 作品链接，回图片/视频/GIF",
-    "NekoTime": "桌面上的悬浮小猫时钟",
+    "NekoTime": "桌面悬浮猫娘时钟，支持自定义 GIF 主题",
     "ludum": "引擎无关、零运行时依赖的 TypeScript 游戏系统库（ECS / 资源 / 状态机 / 对话 / 加权随机 / 几何 / 交互），已发布 npm",
     "paranote": "给网页加段落评论，顺带当阅读器",
 }
@@ -61,14 +61,14 @@ DOCS = {
 
 
 def api(path):
-    req = urllib.request.Request(
-        "https://api.github.com" + path,
-        headers={
-            "Authorization": "Bearer " + os.environ.get("GITHUB_TOKEN", ""),
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "profile-stats-action",
-        },
-    )
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "profile-stats-action",
+    }
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = "Bearer " + token
+    req = urllib.request.Request("https://api.github.com" + path, headers=headers)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 

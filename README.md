@@ -41,7 +41,7 @@
 | :--- | :-: | :--- | :--- |
 | [TelePost](https://github.com/redtidev1918/TelePost) | 16 | Telegram 频道投稿机器人，带搜索、统计、标签 | [文档](https://redtidev1918.github.io/TelePost/) |
 | [telepress](https://github.com/redtidev1918/telepress) | 1 | 往 Telegraph 发文章和图的 Python 库，`pip install telepress` | [文档](https://redtidev1918.github.io/telepress/) |
-| [graf](https://github.com/redtidev1918/graf) | 0 | 自托管的极简 Markdown 发布平台，兼容 Telegraph API | [文档](https://redtidev1918.github.io/graf/) |
+| [graf](https://github.com/redtidev1918/graf) | 0 | 自托管极简 Markdown 发布平台，兼容 Telegraph API，跑在 Cloudflare Workers + D1；附 grafctl 零依赖跨平台部署器 | [文档](https://redtidev1918.github.io/graf/) |
 
 ### DeviantArt
 
@@ -49,14 +49,14 @@
 | :--- | :-: | :--- | :--- |
 | [daviewer](https://github.com/redtidev1918/daviewer) | 15 | 开源 DeviantArt 客户端，Flutter 写的，Android / macOS / Windows | [文档](https://redtidev1918.github.io/daviewer/) |
 | [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader) | 8 | DeviantArt 批量下载 | [文档](https://redtidev1918.github.io/deviantart-downloader/) |
-| [dakit](https://github.com/redtidev1918/dakit) | 0 | DeviantArt 的 Dart / Flutter SDK | [文档](https://redtidev1918.github.io/dakit/) |
+| [dakit](https://github.com/redtidev1918/dakit) | 0 | DeviantArt 的 Dart / Flutter SDK，附带 dakit 跨平台命令行 | [文档](https://redtidev1918.github.io/dakit/) |
 | [deviantdrop](https://github.com/redtidev1918/deviantdrop) | 0 | Telegram Bot，发 DeviantArt 作品链接，回图片/视频/GIF | [文档](https://redtidev1918.github.io/deviantdrop/) |
 
 ### 其他
 
 | 项目 | ⭐ | 说明 | 文档 |
 | :--- | :-: | :--- | :--- |
-| [NekoTime](https://github.com/redtidev1918/NekoTime) | 18 | 桌面上的悬浮小猫时钟 | [文档](https://redtidev1918.github.io/NekoTime/) |
+| [NekoTime](https://github.com/redtidev1918/NekoTime) | 18 | 桌面悬浮猫娘时钟，支持自定义 GIF 主题 | [文档](https://redtidev1918.github.io/NekoTime/) |
 | [ludum](https://github.com/redtidev1918/ludum) | 0 | 引擎无关、零运行时依赖的 TypeScript 游戏系统库（ECS / 资源 / 状态机 / 对话 / 加权随机 / 几何 / 交互），已发布 npm | [文档](https://redtidev1918.github.io/ludum/) |
 | [paranote](https://github.com/redtidev1918/paranote) | 2 | 给网页加段落评论，顺带当阅读器 | [文档](https://redtidev1918.github.io/paranote/) |
 <!-- REPOS_END -->

@@ -31,14 +31,14 @@ OTHER_COLOR = "#8B949E"
 
 
 def api(path):
-    req = urllib.request.Request(
-        "https://api.github.com" + path,
-        headers={
-            "Authorization": "Bearer " + os.environ.get("GITHUB_TOKEN", ""),
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "lang-stats-action",
-        },
-    )
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "lang-stats-action",
+    }
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = "Bearer " + token
+    req = urllib.request.Request("https://api.github.com" + path, headers=headers)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 
