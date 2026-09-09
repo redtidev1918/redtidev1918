@@ -2,7 +2,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1788939977)
+![stats](generated/stats.svg?v=1788940081)
 
 ## Projects
 
@@ -40,7 +40,7 @@
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关的 TypeScript 游戏系统库 |
 | [**paranote**](https://github.com/redtidev1918/paranote) | 网页段落评论与阅读工具 |
-| [**release-infra**](https://github.com/redtidev1918/release-infra) | Release Infrastructure v1: policy, recovery, and fleet audit control plane |
+| [**release-infra**](https://github.com/redtidev1918/release-infra) | ReleaseGraph: serverless, declarative, DAG-driven release orchestration for GitHub Actions |
 <!-- REPOS_END -->
 
 可执行程序见各项目 Releases。
