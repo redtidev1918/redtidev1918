@@ -40,7 +40,7 @@
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关的 TypeScript 游戏系统库 |
 | [**paranote**](https://github.com/redtidev1918/paranote) | 网页段落评论与阅读工具 |
-| [**release-infra**](https://github.com/redtidev1918/release-infra) | ReleaseGraph: serverless, declarative, DAG-driven release orchestration for GitHub Actions |
+| [**ReleaseGraph**](https://github.com/redtidev1918/release-infra) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
 <!-- REPOS_END -->
 
 可执行程序见各项目 Releases。
