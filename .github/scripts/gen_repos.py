@@ -22,6 +22,7 @@ CATEGORIES = [
 
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
 DESC = {
+    "release-infra": "基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器",
     "PixivFlow": "Pixiv 自动下载与任务调度",
     "pixivflow-webui": "PixivFlow 的 Web 前端",
     "pixivflow-telepost-deploy": "PixivFlow + TelePost 部署工具",
@@ -37,6 +38,8 @@ DESC = {
     "ludum": "引擎无关的 TypeScript 游戏系统库",
     "paranote": "网页段落评论与阅读工具",
 }
+
+DISPLAY_NAMES = {"release-infra": "ReleaseGraph"}
 
 
 def api(path):
@@ -75,7 +78,7 @@ def short(desc):
 def line(repo):
     name = repo["name"]
     desc = DESC.get(name) or short(repo.get("description") or "")
-    return f"| [**{name}**]({repo['html_url']}) | {desc} |"
+    return f"| [**{DISPLAY_NAMES.get(name, name)}**]({repo['html_url']}) | {desc} |"
 
 
 TABLE_HEAD = ["| Project | Description |", "| :-- | :-- |"]
