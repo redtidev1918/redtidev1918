@@ -1,4 +1,6 @@
-主要 vibe coding 一些自己感兴趣的项目。
+**语言 / Language:** 中文 · [English](README.en.md)
+
+主要 vibe coding 一些感兴趣的项目。
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
@@ -44,4 +46,8 @@
 | [**releasegraph**](https://github.com/redtidev1918/releasegraph) | ReleaseGraph：基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
 <!-- REPOS_END -->
 
-可执行程序见各项目 Releases。
+## 文档与下载
+
+- 各项目均有由 [docsite](https://github.com/redtidev1918/docsite) 生成、结构统一的**双语文档站**：`https://redtidev1918.github.io/<repo>/`
+- 站内「📥 下载」页列出各平台安装包与校验方式，始终指向最新 Release
+- 其余产物与历史版本见各仓库 Releases
