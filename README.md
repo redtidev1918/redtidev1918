@@ -45,3 +45,8 @@
 <!-- REPOS_END -->
 
 可执行程序见各项目 Releases。
+
+各项目的文档站与下载入口遵循统一规范（[docsite](https://github.com/redtidev1918/docsite)）：
+文档站为 `https://redtidev1918.github.io/<项目名>/`，站点侧边栏内即有「📥 下载」页；
+中文为默认语言，英文文档在各站点的 `/en/` 下。
+
