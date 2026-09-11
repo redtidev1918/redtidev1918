@@ -42,12 +42,12 @@
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关的 TypeScript 游戏系统库 |
 | [**paranote**](https://github.com/redtidev1918/paranote) | 网页段落评论与阅读工具 |
-| [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖的 docsify 文档站脚手架：一行 Python 给任何 GitHub 仓库长出统一文档站 |
-| [**releasegraph**](https://github.com/redtidev1918/releasegraph) | ReleaseGraph：基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
+| [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
+| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
 <!-- REPOS_END -->
 
 ## 文档与下载
 
-- 各项目均有由 [docsite](https://github.com/redtidev1918/docsite) 生成、结构统一的**双语文档站**：`https://redtidev1918.github.io/<repo>/`
-- 站内「📥 下载」页列出各平台安装包与校验方式，始终指向最新 Release
+- 各项目均有由 [docsite](https://github.com/redtidev1918/docsite) 生成、结构统一的双语文档站：`https://redtidev1918.github.io/<repo>/`
+- 站内「下载」页列出各平台安装包与校验方式，始终指向最新 Release
 - 其余产物与历史版本见各仓库 Releases

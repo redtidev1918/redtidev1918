@@ -17,12 +17,12 @@ CATEGORIES = [
     ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixivflow-telepost-deploy", "pixiv-token-getter"]),
     ("Telegram / Publishing", ["TelePost", "telepress", "graf"]),
     ("DeviantArt", ["daviewer", "deviantart-downloader", "dakit", "deviantdrop"]),
-    ("Other", ["NekoTime", "ludum", "paranote"]),
+    ("Other", ["NekoTime", "ludum", "paranote", "docsite", "releasegraph"]),
 ]
 
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
 DESC = {
-    "release-infra": "基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器",
+    "releasegraph": "基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器",
     "PixivFlow": "Pixiv 自动下载与任务调度",
     "pixivflow-webui": "PixivFlow 的 Web 前端",
     "pixivflow-telepost-deploy": "PixivFlow + TelePost 部署工具",
@@ -37,9 +37,10 @@ DESC = {
     "NekoTime": "支持自定义 GIF 主题的桌面悬浮猫娘时钟",
     "ludum": "引擎无关的 TypeScript 游戏系统库",
     "paranote": "网页段落评论与阅读工具",
+    "docsite": "零依赖 docsify 文档站脚手架",
 }
 
-DISPLAY_NAMES = {"release-infra": "ReleaseGraph"}
+DISPLAY_NAMES = {"releasegraph": "ReleaseGraph"}
 
 
 def api(path):
