@@ -23,11 +23,11 @@ CATEGORIES = [
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
 DESC = {
     "releasegraph": "基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器",
-    "PixivFlow": "Pixiv 自动下载与任务调度",
+    "PixivFlow": "Pixiv 批量下载、筛选与定时收集工具",
     "pixivflow-webui": "PixivFlow 的 Web 前端",
-    "pixivflow-telepost-deploy": "PixivFlow + TelePost 部署工具",
+    "pixivflow-telepost-deploy": "PixivFlow + TelePost 部署与运维工具",
     "pixiv-token-getter": "Pixiv token 获取库与 CLI",
-    "TelePost": "Telegram 频道投稿机器人，支持搜索、统计和标签",
+    "TelePost": "Telegram 频道投稿、审核与自动化发布平台",
     "telepress": "Telegraph 文章与图片发布 Python 库",
     "graf": "兼容 Telegraph API 的自托管 Markdown 发布平台",
     "daviewer": "DeviantArt 客户端，支持 Android / macOS / Windows",

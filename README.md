@@ -13,16 +13,16 @@
 
 | Project | Description |
 | :-- | :-- |
-| [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv 自动下载与任务调度 |
+| [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv 批量下载、筛选与定时收集工具 |
 | [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | PixivFlow 的 Web 前端 |
-| [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) | PixivFlow + TelePost 部署工具 |
+| [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) | PixivFlow + TelePost 部署与运维工具 |
 | [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv token 获取库与 CLI |
 
 ### Telegram / Publishing
 
 | Project | Description |
 | :-- | :-- |
-| [**TelePost**](https://github.com/redtidev1918/TelePost) | Telegram 频道投稿机器人，支持搜索、统计和标签 |
+| [**TelePost**](https://github.com/redtidev1918/TelePost) | Telegram 频道投稿、审核与自动化发布平台 |
 | [**telepress**](https://github.com/redtidev1918/telepress) | Telegraph 文章与图片发布 Python 库 |
 | [**graf**](https://github.com/redtidev1918/graf) | 兼容 Telegraph API 的自托管 Markdown 发布平台 |
 
