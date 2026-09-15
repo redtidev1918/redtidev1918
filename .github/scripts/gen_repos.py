@@ -33,7 +33,7 @@ DESC = {
     "daviewer": "DeviantArt 客户端，支持 Android / macOS / Windows",
     "deviantart-downloader": "DeviantArt 批量下载器",
     "dakit": "Dart / Flutter DeviantArt SDK 与 CLI",
-    "deviantdrop": "DeviantArt 作品链接 → Telegram 回传原图/视频/GIF 的 Bot",
+    "deviantdrop": "DeviantArt 作品链接转 Telegram 原图/视频/GIF 回传 Bot",
     "NekoTime": "支持自定义 GIF 主题的桌面悬浮猫娘时钟",
     "ludum": "引擎无关的 TypeScript 游戏系统库",
     "paranote": "网页段落评论与阅读工具",

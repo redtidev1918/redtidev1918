@@ -33,7 +33,7 @@
 | [**daviewer**](https://github.com/redtidev1918/daviewer) | DeviantArt 客户端，支持 Android / macOS / Windows |
 | [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | DeviantArt 批量下载器 |
 | [**dakit**](https://github.com/redtidev1918/dakit) | Dart / Flutter DeviantArt SDK 与 CLI |
-| [**deviantdrop**](https://github.com/redtidev1918/deviantdrop) | DeviantArt 作品链接 → Telegram 回传原图/视频/GIF 的 Bot |
+| [**deviantdrop**](https://github.com/redtidev1918/deviantdrop) | DeviantArt 作品链接转 Telegram 原图/视频/GIF 回传 Bot |
 
 ### Other
 
