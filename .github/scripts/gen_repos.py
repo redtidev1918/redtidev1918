@@ -23,9 +23,9 @@ CATEGORIES = [
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
 DESC = {
     "releasegraph": "基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器",
-    "PixivFlow": "Pixiv 批量下载、筛选与定时收集工具",
+    "PixivFlow": "Pixiv 下载、筛选与自动收集工具，可本地保存或交付给其他服务",
     "pixivflow-webui": "PixivFlow 的 Web 前端",
-    "pixivflow-telepost-deploy": "PixivFlow + TelePost 部署与运维工具",
+    "pixivflow-telepost-deploy": "PixivFlow + TelePost 的部署与运维套件",
     "pixiv-token-getter": "Pixiv token 获取库与 CLI",
     "TelePost": "Telegram 频道投稿、审核与自动化发布平台",
     "telepress": "Telegraph 文章与图片发布 Python 库",
@@ -33,7 +33,7 @@ DESC = {
     "daviewer": "DeviantArt 客户端，支持 Android / macOS / Windows",
     "deviantart-downloader": "DeviantArt 批量下载器",
     "dakit": "Dart / Flutter DeviantArt SDK 与 CLI",
-    "deviantdrop": "DeviantArt 链接解析与媒体回传 Telegram Bot",
+    "deviantdrop": "DeviantArt 作品链接 → Telegram 回传原图/视频/GIF 的 Bot",
     "NekoTime": "支持自定义 GIF 主题的桌面悬浮猫娘时钟",
     "ludum": "引擎无关的 TypeScript 游戏系统库",
     "paranote": "网页段落评论与阅读工具",
