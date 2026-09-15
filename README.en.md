@@ -4,12 +4,6 @@ I mostly vibe-code projects that interest me.
 
 The work is centered on content-platform tooling, plus some desktop apps, CLI / SDKs, and game-related projects.
 
-The projects, in one line each:
-
-- **PixivFlow** (discover / download / schedule) → **TelePost** (submissions / review / publish) → Telegram
-- **pixivflow-telepost-deploy** — only needed to compose the two above
-- **DeviantDrop** (standalone) — DeviantArt work link → Telegram reply
-
 ## Projects
 
 The project index is auto-generated and kept in Chinese in [`README.md`](README.md);

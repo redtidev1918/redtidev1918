@@ -6,13 +6,6 @@
 
 ![stats](generated/stats.svg?v=1789467872)
 
-项目关系一句话：
-
-- **PixivFlow**（内容发现 / 下载 / 调度）→ **TelePost**（投稿 / 审核 / 发布）→ Telegram
-- **pixivflow-telepost-deploy**：只在想组合部署前两者时需要
-- **DeviantDrop**（独立）：DeviantArt 作品链接 → Telegram 回传
-
-
 ## Projects
 
 <!-- REPOS_START -->
