@@ -14,7 +14,7 @@
 | Project | Description |
 | :-- | :-- |
 | [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv 下载、筛选与自动收集工具，支持批量下载、定时任务和可靠 HTTP 交付 |
-| [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | PixivFlow 的现代 React Web 前端 |
+| [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | PixivFlow 的 Web 前端 |
 | [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv API token 获取库与 CLI |
 
 ### Telegram / Publishing
@@ -33,7 +33,7 @@
 | [**DAKit**](https://github.com/redtidev1918/DAKit) | 面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK |
 | [**DAViewer**](https://github.com/redtidev1918/DAViewer) | 开源 DeviantArt 客户端，支持 Android / macOS / Windows |
 | [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接 |
-| [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | 专业的 DeviantArt 批量下载器 |
+| [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | DeviantArt 批量下载器 |
 
 ### Desktop / Game Tech
 
@@ -48,7 +48,7 @@
 | :-- | :-- |
 | [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) | PixivFlow + TelePost 的部署与运维套件 |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
-| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的声明式 DAG 多仓库发布编排器 |
+| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
 <!-- REPOS_END -->
 
 ## 命名约定

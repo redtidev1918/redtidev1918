@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Auto-generate the project index in README.md from the GitHub API.
 
-New repos show up automatically (under "Other"). Only the section between
-<!-- REPOS_START --> and <!-- REPOS_END --> is touched.
+New unlisted repos show up automatically at the end (under 其他项目). Only the
+section between <!-- REPOS_START --> and <!-- REPOS_END --> is touched.
 """
 import json
 import os
@@ -12,31 +12,34 @@ import urllib.request
 USER = "redtidev1918"
 README = "README.md"
 
-# 分类（按顺序渲染）。不在任何分类里的新仓库会自动并到 Other。
+# 分类（按顺序渲染）。名字必须和 GitHub 上的仓库名完全一致（大小写敏感），
+# 否则仓库会掉进「其他项目」。
 CATEGORIES = [
-    ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixivflow-telepost-deploy", "pixiv-token-getter"]),
-    ("Telegram / Publishing", ["TelePost", "telepress", "graf"]),
-    ("DeviantArt", ["daviewer", "deviantart-downloader", "dakit", "deviantdrop"]),
-    ("Other", ["NekoTime", "ludum", "paranote", "docsite", "releasegraph"]),
+    ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
+    ("Telegram / Publishing", ["TelePost", "TelePress", "Graf", "ParaNote"]),
+    ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
+    ("Desktop / Game Tech", ["NekoTime", "ludum"]),
+    ("Developer Infrastructure", ["pixivflow-telepost-deploy", "docsite", "releasegraph"]),
+    ("其他项目", []),
 ]
 
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
 DESC = {
     "releasegraph": "基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器",
-    "PixivFlow": "Pixiv 下载、筛选与自动收集工具，可本地保存或交付给其他服务",
+    "PixivFlow": "Pixiv 下载、筛选与自动收集工具，支持批量下载、定时任务和可靠 HTTP 交付",
     "pixivflow-webui": "PixivFlow 的 Web 前端",
     "pixivflow-telepost-deploy": "PixivFlow + TelePost 的部署与运维套件",
-    "pixiv-token-getter": "Pixiv token 获取库与 CLI",
+    "pixiv-token-getter": "Pixiv API token 获取库与 CLI",
     "TelePost": "Telegram 频道投稿、审核与自动化发布平台",
-    "telepress": "Telegraph 文章与图片发布 Python 库",
-    "graf": "兼容 Telegraph API 的自托管 Markdown 发布平台",
-    "daviewer": "DeviantArt 客户端，支持 Android / macOS / Windows",
+    "TelePress": "轻松向 Telegraph 发布文本、图片和档案",
+    "Graf": "极简自托管 Markdown 发布平台，Telegraph API 兼容",
+    "ParaNote": "轻量级段落评论服务 + 通用网页阅读器",
+    "DAKit": "面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK",
+    "DAViewer": "开源 DeviantArt 客户端，支持 Android / macOS / Windows",
+    "DeviantDrop": "Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接",
     "deviantart-downloader": "DeviantArt 批量下载器",
-    "dakit": "Dart / Flutter DeviantArt SDK 与 CLI",
-    "deviantdrop": "DeviantArt 作品链接转 Telegram 原图/视频/GIF 回传 Bot",
     "NekoTime": "支持自定义 GIF 主题的桌面悬浮猫娘时钟",
-    "ludum": "引擎无关的 TypeScript 游戏系统库",
-    "paranote": "网页段落评论与阅读工具",
+    "ludum": "引擎无关、零运行时依赖的 TypeScript 游戏系统库",
     "docsite": "零依赖 docsify 文档站脚手架",
 }
 
@@ -95,7 +98,7 @@ def build(repos):
         for n in names:
             if n in by_name:
                 rows.append(line(by_name[n]))
-        if cat == "Other":
+        if cat == "其他项目":
             for r in sorted(
                 (r for r in by_name.values() if r["name"] not in listed),
                 key=lambda x: -x["stargazers_count"],
