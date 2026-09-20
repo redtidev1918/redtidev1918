@@ -81,13 +81,11 @@ def short(desc):
 def line(repo):
     name = repo["name"]
     desc = DESC.get(name) or short(repo.get("description") or "")
-    # 文档站地址严格用仓库名（Pages 路径区分大小写，daKit 这种写法会 404）。
-    docs = (
-        f" · [文档](https://{USER}.github.io/{name}/)"
-        if repo.get("has_pages")
-        else ""
-    )
-    return f"| [**{DISPLAY_NAMES.get(name, name)}**]({repo['html_url']}){docs} | {desc} |"
+    # 文档站地址严格用仓库名——Pages 路径区分大小写，写成 daKit 会 404。
+    # 链接跟在简介后面，项目名那一列留给项目本身。
+    if repo.get("has_pages"):
+        desc = f"{desc} · [文档](https://{USER}.github.io/{name}/)"
+    return f"| [**{DISPLAY_NAMES.get(name, name)}**]({repo['html_url']}) | {desc} |"
 
 
 TABLE_HEAD = ["| Project | Description |", "| :-- | :-- |"]
