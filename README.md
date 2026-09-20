@@ -9,42 +9,43 @@
 ## Projects
 
 <!-- REPOS_START -->
-### Pixiv
+### Content / Automation
 
 | Project | Description |
 | :-- | :-- |
-| [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv 下载、筛选与自动收集工具，可本地保存或交付给其他服务 |
-| [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | PixivFlow 的 Web 前端 |
+| [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv 下载、筛选与自动收集工具，支持批量下载、定时任务和可靠 HTTP 交付 |
+| [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | PixivFlow 的现代 React Web 前端 |
 | [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) | PixivFlow + TelePost 的部署与运维套件 |
-| [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv token 获取库与 CLI |
-
-### Telegram / Publishing
-
-| Project | Description |
-| :-- | :-- |
 | [**TelePost**](https://github.com/redtidev1918/TelePost) | Telegram 频道投稿、审核与自动化发布平台 |
+| [**TelePress**](https://github.com/redtidev1918/TelePress) | 轻松向 Telegraph 发布文本、图片和档案 |
+| [**Graf**](https://github.com/redtidev1918/Graf) | 极简自托管 Markdown 发布平台，Telegraph API 兼容 |
+| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 轻量级段落评论服务 + 通用网页阅读器 |
 
 ### DeviantArt
 
 | Project | Description |
 | :-- | :-- |
-| [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | DeviantArt 批量下载器 |
+| [**DAKit**](https://github.com/redtidev1918/DAKit) | 面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK |
+| [**DAViewer**](https://github.com/redtidev1918/DAViewer) | 开源 DeviantArt 客户端，支持 Android / macOS / Windows |
+| [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接 |
+| [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | 专业的 DeviantArt 批量下载器 |
 
-### Other
+### Apps / Libraries / Tooling
 
 | Project | Description |
 | :-- | :-- |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
-| [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关的 TypeScript 游戏系统库 |
+| [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 |
+| [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv API token 获取库与 CLI |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
-| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
-| [**DAViewer**](https://github.com/redtidev1918/DAViewer) | 开源 DeviantArt 客户端（Android / macOS / Windows），基于 DAKit 构建，支持浏览、搜索、标签、收藏、关注与下载 |
-| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 轻量级段落评论服务 + 通用网页阅读器 |
-| [**TelePress**](https://github.com/redtidev1918/TelePress) | TelePress：Publish text, images and archives to Telegraph easily |
-| [**DAKit**](https://github.com/redtidev1918/DAKit) | 面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK —— OAuth 认证、官方 API、领域模型、诊断与后台传输 |
-| [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接 |
-| [**Graf**](https://github.com/redtidev1918/Graf) | Graf — 极简自托管 Markdown 发布平台，Telegra.ph/Telegraph API 兼容，运行于 Cloudflare Workers + D1 |
+| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的声明式 DAG 多仓库发布编排器 |
 <!-- REPOS_END -->
+
+## 命名约定
+
+- 产品 / App / 平台：PascalCase（例如 `PixivFlow`、`TelePost`、`DAViewer`）
+- CLI / 库 / 基础设施：kebab-case（例如 `deviantart-downloader`、`pixivflow-telepost-deploy`）
+- 包名遵循各生态习惯，不强求和仓库名大小写一致
 
 ## 文档与下载
 
