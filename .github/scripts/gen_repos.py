@@ -17,9 +17,9 @@ README = "README.md"
 CATEGORIES = [
     ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
     ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
-    ("Telegram", ["TelePost"]),
-    ("发布工具", ["TelePress", "Graf"]),
-    ("更多项目", ["NekoTime", "ludum", "ParaNote", "pixivflow-telepost-deploy", "docsite", "releasegraph"]),
+    ("Telegram", ["TelePost", "TelePress", "pixivflow-telepost-deploy"]),
+    ("发布工具", ["Graf"]),
+    ("更多项目", ["NekoTime", "ludum", "ParaNote", "docsite", "releasegraph"]),
 ]
 
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
@@ -30,7 +30,7 @@ DESC = {
     "pixivflow-telepost-deploy": "PixivFlow + TelePost 的部署与运维套件",
     "pixiv-token-getter": "Pixiv API token 获取库与 CLI",
     "TelePost": "Telegram 频道投稿、审核与自动化发布平台",
-    "TelePress": "Telegraph 发布工具，与 Telegram 无关，可独立使用",
+    "TelePress": "向 Telegraph 发布文本、图片与档案的 Python 库与 CLI",
     "Graf": "自托管 Markdown 发布平台，兼容 Telegraph API",
     "ParaNote": "网页段落评论服务 + 通用阅读器，与 Telegram 无关",
     "DAKit": "面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK",
