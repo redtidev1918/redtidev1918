@@ -4,7 +4,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1789925086)
+![stats](generated/stats.svg?v=1789926015)
 
 ## Projects
 
@@ -39,7 +39,7 @@
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
 | [**DAViewer**](https://github.com/redtidev1918/DAViewer) | 开源 DeviantArt 客户端（Android / macOS / Windows），基于 DAKit 构建，支持浏览、搜索、标签、收藏、关注与下载 |
-| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 轻量级段落评论服务 + 通用网页阅读器 |
+| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | ParaNote — 轻量级段落评论服务 + 通用网页阅读器 |
 | [**TelePress**](https://github.com/redtidev1918/TelePress) | TelePress：Publish text, images and archives to Telegraph easily |
 | [**DAKit**](https://github.com/redtidev1918/DAKit) | 面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK —— OAuth 认证、官方 API、领域模型、诊断与后台传输 |
 | [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接 |
