@@ -4,7 +4,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1789918755)
+![stats](generated/stats.svg?v=1789920789)
 
 ## Projects
 
@@ -33,7 +33,6 @@
 | [**daviewer**](https://github.com/redtidev1918/daviewer) | DeviantArt 客户端，支持 Android / macOS / Windows |
 | [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | DeviantArt 批量下载器 |
 | [**dakit**](https://github.com/redtidev1918/dakit) | Dart / Flutter DeviantArt SDK 与 CLI |
-| [**deviantdrop**](https://github.com/redtidev1918/deviantdrop) | DeviantArt 作品链接转 Telegram 原图/视频/GIF 回传 Bot |
 
 ### Other
 
@@ -44,6 +43,7 @@
 | [**paranote**](https://github.com/redtidev1918/paranote) | 网页段落评论与阅读工具 |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
+| [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接 |
 <!-- REPOS_END -->
 
 ## 文档与下载
