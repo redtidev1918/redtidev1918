@@ -4,7 +4,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1789921908)
+![stats](generated/stats.svg?v=1789922403)
 
 ## Projects
 
@@ -23,16 +23,12 @@
 | Project | Description |
 | :-- | :-- |
 | [**TelePost**](https://github.com/redtidev1918/TelePost) | Telegram 频道投稿、审核与自动化发布平台 |
-| [**telepress**](https://github.com/redtidev1918/telepress) | Telegraph 文章与图片发布 Python 库 |
-| [**graf**](https://github.com/redtidev1918/graf) | 兼容 Telegraph API 的自托管 Markdown 发布平台 |
 
 ### DeviantArt
 
 | Project | Description |
 | :-- | :-- |
-| [**daviewer**](https://github.com/redtidev1918/daviewer) | DeviantArt 客户端，支持 Android / macOS / Windows |
 | [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | DeviantArt 批量下载器 |
-| [**dakit**](https://github.com/redtidev1918/dakit) | Dart / Flutter DeviantArt SDK 与 CLI |
 
 ### Other
 
@@ -40,10 +36,14 @@
 | :-- | :-- |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关的 TypeScript 游戏系统库 |
-| [**paranote**](https://github.com/redtidev1918/paranote) | 网页段落评论与阅读工具 |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
+| [**DAViewer**](https://github.com/redtidev1918/DAViewer) | 开源 DeviantArt 客户端（Android / macOS / Windows），基于 DAKit 构建，支持浏览、搜索、标签、收藏、关注与下载 |
+| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 轻量级段落评论服务 + 通用网页阅读器 |
+| [**TelePress**](https://github.com/redtidev1918/TelePress) | TelePress：Publish text, images and archives to Telegraph easily |
+| [**DAKit**](https://github.com/redtidev1918/DAKit) | 面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK —— OAuth 认证、官方 API、领域模型、诊断与后台传输 |
 | [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接 |
+| [**Graf**](https://github.com/redtidev1918/Graf) | Graf — 极简自托管 Markdown 发布平台，Telegra.ph/Telegraph API 兼容，运行于 Cloudflare Workers + D1 |
 <!-- REPOS_END -->
 
 ## 文档与下载
