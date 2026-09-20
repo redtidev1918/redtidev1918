@@ -18,8 +18,8 @@ CATEGORIES = [
     ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
     ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
     ("Telegram", ["TelePost"]),
-    ("发布工具", ["TelePress", "Graf", "ParaNote"]),
-    ("更多项目", ["NekoTime", "ludum", "pixivflow-telepost-deploy", "docsite", "releasegraph"]),
+    ("发布工具", ["TelePress", "Graf"]),
+    ("更多项目", ["NekoTime", "ludum", "ParaNote", "pixivflow-telepost-deploy", "docsite", "releasegraph"]),
 ]
 
 # 一句话描述。没写到的仓库回退用 repo 自带 description。

@@ -38,7 +38,6 @@
 | :-- | :-- | :-: |
 | [**TelePress**](https://github.com/redtidev1918/TelePress) | Telegraph 发布工具，与 Telegram 无关，可独立使用 | [文档](https://redtidev1918.github.io/TelePress/) |
 | [**Graf**](https://github.com/redtidev1918/Graf) | 自托管 Markdown 发布平台，兼容 Telegraph API | [文档](https://redtidev1918.github.io/Graf/) |
-| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 
 ### 更多项目
 
@@ -46,6 +45,7 @@
 | :-- | :-- | :-: |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 | [文档](https://redtidev1918.github.io/NekoTime/) |
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 | [文档](https://redtidev1918.github.io/ludum/) |
+| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 | [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) | PixivFlow + TelePost 的部署与运维套件 | [文档](https://redtidev1918.github.io/pixivflow-telepost-deploy/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 | [文档](https://redtidev1918.github.io/releasegraph/) |
