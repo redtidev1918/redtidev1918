@@ -18,8 +18,8 @@ CATEGORIES = [
     ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
     ("Telegram / Publishing", ["TelePost", "TelePress", "Graf", "ParaNote"]),
     ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
-    ("Desktop / Game Tech", ["NekoTime", "ludum"]),
-    ("Developer Infrastructure", ["pixivflow-telepost-deploy", "docsite", "releasegraph"]),
+    ("Apps & Libraries", ["NekoTime", "ludum"]),
+    ("Tooling & Infrastructure", ["pixivflow-telepost-deploy", "docsite", "releasegraph"]),
     ("其他项目", []),
 ]
 

@@ -35,14 +35,14 @@
 | [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接 |
 | [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | DeviantArt 批量下载器 |
 
-### Desktop / Game Tech
+### Apps & Libraries
 
 | Project | Description |
 | :-- | :-- |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 |
 
-### Developer Infrastructure
+### Tooling & Infrastructure
 
 | Project | Description |
 | :-- | :-- |
@@ -50,11 +50,6 @@
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
 <!-- REPOS_END -->
-
-## 命名约定
-
-- 产品 / App / 平台：PascalCase（例如 `PixivFlow`、`TelePost`、`DAViewer`）
-- CLI / 库 / 基础设施：kebab-case（例如 `deviantart-downloader`、`pixivflow-telepost-deploy`）
 
 ## 文档与下载
 
