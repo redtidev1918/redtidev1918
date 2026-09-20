@@ -9,11 +9,10 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 The project index is kept in Chinese in [`README.md`](README.md);
 each entry below links to its repository.
 
-- **Pixiv** — [PixivFlow](https://github.com/redtidev1918/PixivFlow) · [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) · [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter)
-- **Telegram / Publishing** — [TelePost](https://github.com/redtidev1918/TelePost) · [TelePress](https://github.com/redtidev1918/TelePress) · [Graf](https://github.com/redtidev1918/Graf) · [ParaNote](https://github.com/redtidev1918/ParaNote)
 - **DeviantArt** — [DAKit](https://github.com/redtidev1918/DAKit) · [DAViewer](https://github.com/redtidev1918/DAViewer) · [DeviantDrop](https://github.com/redtidev1918/DeviantDrop) · [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader)
-- **Apps & Libraries** — [NekoTime](https://github.com/redtidev1918/NekoTime) · [ludum](https://github.com/redtidev1918/ludum)
-- **Tooling & Infrastructure** — [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) · [docsite](https://github.com/redtidev1918/docsite) · [ReleaseGraph](https://github.com/redtidev1918/releasegraph)
+- **Pixiv** — [PixivFlow](https://github.com/redtidev1918/PixivFlow) · [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) · [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter)
+- **Telegram** — [TelePost](https://github.com/redtidev1918/TelePost) · [TelePress](https://github.com/redtidev1918/TelePress) · [Graf](https://github.com/redtidev1918/Graf) · [ParaNote](https://github.com/redtidev1918/ParaNote)
+- **More projects** — [NekoTime](https://github.com/redtidev1918/NekoTime) · [ludum](https://github.com/redtidev1918/ludum) · [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) · [docsite](https://github.com/redtidev1918/docsite) · [ReleaseGraph](https://github.com/redtidev1918/releasegraph)
 
 ## Docs & downloads
 

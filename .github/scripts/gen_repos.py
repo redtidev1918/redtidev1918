@@ -13,14 +13,12 @@ USER = "redtidev1918"
 README = "README.md"
 
 # 分类（按顺序渲染）。名字必须和 GitHub 上的仓库名完全一致（大小写敏感），
-# 否则仓库会掉进「其他项目」。
+# 否则仓库会掉进「更多项目」。按产品族分组，方便不懂技术的人浏览。
 CATEGORIES = [
-    ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
-    ("Telegram / Publishing", ["TelePost", "TelePress", "Graf", "ParaNote"]),
     ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
-    ("Apps & Libraries", ["NekoTime", "ludum"]),
-    ("Tooling & Infrastructure", ["pixivflow-telepost-deploy", "docsite", "releasegraph"]),
-    ("其他项目", []),
+    ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
+    ("Telegram", ["TelePost", "TelePress", "Graf", "ParaNote"]),
+    ("更多项目", ["NekoTime", "ludum", "pixivflow-telepost-deploy", "docsite", "releasegraph"]),
 ]
 
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
@@ -98,7 +96,7 @@ def build(repos):
         for n in names:
             if n in by_name:
                 rows.append(line(by_name[n]))
-        if cat == "其他项目":
+        if cat == "更多项目":
             for r in sorted(
                 (r for r in by_name.values() if r["name"] not in listed),
                 key=lambda x: -x["stargazers_count"],
