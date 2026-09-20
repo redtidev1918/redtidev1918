@@ -4,7 +4,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1789931020)
+![stats](generated/stats.svg?v=1789931181)
 
 ## Projects
 
@@ -47,7 +47,7 @@
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) · [文档](https://redtidev1918.github.io/NekoTime/) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 |
 | [**ludum**](https://github.com/redtidev1918/ludum) · [文档](https://redtidev1918.github.io/ludum/) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 |
 | [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) · [文档](https://redtidev1918.github.io/pixivflow-telepost-deploy/) | PixivFlow + TelePost 的部署与运维套件 |
-| [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 |
+| [**docsite**](https://github.com/redtidev1918/docsite) · [文档](https://redtidev1918.github.io/docsite/) | 零依赖 docsify 文档站脚手架 |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) · [文档](https://redtidev1918.github.io/releasegraph/) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 |
 <!-- REPOS_END -->
 
