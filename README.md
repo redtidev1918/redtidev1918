@@ -4,7 +4,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1789929443)
+![stats](generated/stats.svg?v=1789928572)
 
 ## Projects
 
@@ -31,9 +31,14 @@
 | Project | Description |
 | :-- | :-- |
 | [**TelePost**](https://github.com/redtidev1918/TelePost) | Telegram 频道投稿、审核与自动化发布平台 |
-| [**TelePress**](https://github.com/redtidev1918/TelePress) | 轻松向 Telegraph 发布文本、图片和档案 |
-| [**Graf**](https://github.com/redtidev1918/Graf) | 极简自托管 Markdown 发布平台，Telegraph API 兼容 |
-| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 轻量级段落评论服务 + 通用网页阅读器 |
+
+### 发布工具
+
+| Project | Description |
+| :-- | :-- |
+| [**TelePress**](https://github.com/redtidev1918/TelePress) | Telegraph 发布工具，与 Telegram 无关，可独立使用 |
+| [**Graf**](https://github.com/redtidev1918/Graf) | 自托管 Markdown 发布平台，兼容 Telegraph API |
+| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 |
 
 ### 更多项目
 

@@ -11,7 +11,8 @@ each entry below links to its repository.
 
 - **DeviantArt** — [DAKit](https://github.com/redtidev1918/DAKit) · [DAViewer](https://github.com/redtidev1918/DAViewer) · [DeviantDrop](https://github.com/redtidev1918/DeviantDrop) · [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader)
 - **Pixiv** — [PixivFlow](https://github.com/redtidev1918/PixivFlow) · [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) · [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter)
-- **Telegram** — [TelePost](https://github.com/redtidev1918/TelePost) · [TelePress](https://github.com/redtidev1918/TelePress) · [Graf](https://github.com/redtidev1918/Graf) · [ParaNote](https://github.com/redtidev1918/ParaNote)
+- **Telegram** — [TelePost](https://github.com/redtidev1918/TelePost)
+- **Publishing tools** (independent of Telegram) — [TelePress](https://github.com/redtidev1918/TelePress) · [Graf](https://github.com/redtidev1918/Graf) · [ParaNote](https://github.com/redtidev1918/ParaNote)
 - **More projects** — [NekoTime](https://github.com/redtidev1918/NekoTime) · [ludum](https://github.com/redtidev1918/ludum) · [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) · [docsite](https://github.com/redtidev1918/docsite) · [ReleaseGraph](https://github.com/redtidev1918/releasegraph)
 
 ## Docs & downloads

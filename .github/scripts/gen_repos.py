@@ -17,7 +17,8 @@ README = "README.md"
 CATEGORIES = [
     ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
     ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
-    ("Telegram", ["TelePost", "TelePress", "Graf", "ParaNote"]),
+    ("Telegram", ["TelePost"]),
+    ("发布工具", ["TelePress", "Graf", "ParaNote"]),
     ("更多项目", ["NekoTime", "ludum", "pixivflow-telepost-deploy", "docsite", "releasegraph"]),
 ]
 
@@ -29,9 +30,9 @@ DESC = {
     "pixivflow-telepost-deploy": "PixivFlow + TelePost 的部署与运维套件",
     "pixiv-token-getter": "Pixiv API token 获取库与 CLI",
     "TelePost": "Telegram 频道投稿、审核与自动化发布平台",
-    "TelePress": "轻松向 Telegraph 发布文本、图片和档案",
-    "Graf": "极简自托管 Markdown 发布平台，Telegraph API 兼容",
-    "ParaNote": "轻量级段落评论服务 + 通用网页阅读器",
+    "TelePress": "Telegraph 发布工具，与 Telegram 无关，可独立使用",
+    "Graf": "自托管 Markdown 发布平台，兼容 Telegraph API",
+    "ParaNote": "网页段落评论服务 + 通用阅读器，与 Telegram 无关",
     "DAKit": "面向 Dart / Flutter 的模块化 DeviantArt 客户端 SDK",
     "DAViewer": "开源 DeviantArt 客户端，支持 Android / macOS / Windows",
     "DeviantDrop": "Telegram 机器人：发 DeviantArt 作品链接，回传原图/视频/GIF 并附原页面链接",
