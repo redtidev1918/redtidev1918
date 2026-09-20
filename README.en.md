@@ -6,19 +6,19 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 
 ## Projects
 
-The project index is auto-generated and kept in Chinese in [`README.md`](README.md);
+The project index is kept in Chinese in [`README.md`](README.md);
 each entry below links to its repository.
 
-- [PixivFlow](https://github.com/redtidev1918/PixivFlow) · [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) · [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) · [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter) — Pixiv tooling
-- [TelePost](https://github.com/redtidev1918/TelePost) · [TelePress](https://github.com/redtidev1918/TelePress) · [Graf](https://github.com/redtidev1918/Graf) · [ParaNote](https://github.com/redtidev1918/ParaNote) — content publishing
-- [DAKit](https://github.com/redtidev1918/DAKit) · [DAViewer](https://github.com/redtidev1918/DAViewer) · [DeviantDrop](https://github.com/redtidev1918/DeviantDrop) · [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader) — DeviantArt tooling
-- [NekoTime](https://github.com/redtidev1918/NekoTime) · [ludum](https://github.com/redtidev1918/ludum) · [docsite](https://github.com/redtidev1918/docsite) · [ReleaseGraph](https://github.com/redtidev1918/releasegraph) — apps, libraries, and tooling
+- **Pixiv** — [PixivFlow](https://github.com/redtidev1918/PixivFlow) · [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) · [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter)
+- **Telegram / Publishing** — [TelePost](https://github.com/redtidev1918/TelePost) · [TelePress](https://github.com/redtidev1918/TelePress) · [Graf](https://github.com/redtidev1918/Graf) · [ParaNote](https://github.com/redtidev1918/ParaNote)
+- **DeviantArt** — [DAKit](https://github.com/redtidev1918/DAKit) · [DAViewer](https://github.com/redtidev1918/DAViewer) · [DeviantDrop](https://github.com/redtidev1918/DeviantDrop) · [deviantart-downloader](https://github.com/redtidev1918/deviantart-downloader)
+- **Desktop / Game Tech** — [NekoTime](https://github.com/redtidev1918/NekoTime) · [ludum](https://github.com/redtidev1918/ludum)
+- **Developer Infrastructure** — [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy) · [docsite](https://github.com/redtidev1918/docsite) · [ReleaseGraph](https://github.com/redtidev1918/releasegraph)
 
 ## Naming convention
 
 - Products / apps / platforms: PascalCase (for example, `PixivFlow`, `TelePost`, `DAViewer`)
 - CLIs / libraries / infrastructure: kebab-case (for example, `deviantart-downloader`, `pixivflow-telepost-deploy`)
-- Package names follow their ecosystem conventions and do not have to match repository casing
 
 ## Docs & downloads
 
