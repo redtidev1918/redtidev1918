@@ -1,3 +1,5 @@
+# redtidev1918
+
 **语言 / Language:** 中文 · [English](README.en.md)
 
 主要 vibe coding 一些感兴趣的项目。
@@ -6,7 +8,7 @@
 
 ![stats](generated/stats.svg?v=1789986528)
 
-## Projects
+## 项目
 
 <!-- REPOS_START -->
 ### DeviantArt
