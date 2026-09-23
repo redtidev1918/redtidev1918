@@ -23,6 +23,7 @@ concurrency:
 jobs:
   stats:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -39,22 +40,39 @@ jobs:
         run: python3 .github/scripts/gen_stats.py
 
       - name: Refresh repo list in README
+        id: repos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/gen_repos.py
+        run: |
+          python3 .github/scripts/gen_repos.py
+          if git diff --quiet -- README.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
+      # 只有仓库列表真的变了才跑 sync：它要逐个仓库调 GitHub API，
+      # 每天固定跑一次纯属浪费配额；新仓库出现时才需要接通知。
       - name: Wire new repos (notify workflow + token)
+        if: steps.repos.outputs.changed == 'true'
         env:
           SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: python3 .github/scripts/sync_repos.py
 
-      - name: Bust README image cache
+      # 只有 stats.svg 内容真的变了才刷新缓存参数，
+      # 否则每天都会产生一个只有 ?v= 变化的无意义提交。
+      - name: Bust README image cache (only when stats changed)
         run: |
-          sed -i "s|generated/stats.svg?v=[0-9]*|generated/stats.svg?v=$(date +%s)|" README.md
+          if git diff --quiet -- generated/stats.svg; then
+            echo "stats.svg unchanged; skip cache bust"
+          else
+            sed -i "s|generated/stats.svg?v=[0-9]*|generated/stats.svg?v=$(date +%s)|" README.md
+          fi
 
       - name: Commit generated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add generated/ README.md
-          git commit -m "Update profile stats [auto]" && git push || echo "No changes."
+          git diff --cached --quiet || git commit -m "Update profile stats [auto]"
+          git push || echo "No changes."

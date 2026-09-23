@@ -40,18 +40,23 @@
 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
-| [**Graf**](https://github.com/redtidev1918/Graf) | 自托管 Markdown 发布平台，兼容 Telegraph API | [文档](https://redtidev1918.github.io/Graf/) |
+| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 | [文档](https://redtidev1918.github.io/releasegraph/) |
+
+### Skills
+
+| Project | Description | Docs |
+| :-- | :-- | :-: |
+| [**use-bash**](https://github.com/redtidev1918/use-bash) | 让 AI 编程代理在 Windows 上默认用 bash 代替 PowerShell：一个 skill、一份 AGENTS.md | [文档](https://redtidev1918.github.io/use-bash/) |
 
 ### 更多项目
 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
+| [**Graf**](https://github.com/redtidev1918/Graf) | 自托管 Markdown 发布平台，兼容 Telegraph API | [文档](https://redtidev1918.github.io/Graf/) |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 | [文档](https://redtidev1918.github.io/NekoTime/) |
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 | [文档](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
-| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 | [文档](https://redtidev1918.github.io/releasegraph/) |
-| [**use-bash**](https://github.com/redtidev1918/use-bash) | Make AI coding agents use bash by default on Windows. One skill, one AGENTS.md, zero PowerShell for text and file operations. | [文档](https://redtidev1918.github.io/use-bash/) |
 <!-- REPOS_END -->
 
 ## 文档与下载

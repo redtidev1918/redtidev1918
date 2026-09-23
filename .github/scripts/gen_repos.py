@@ -18,8 +18,9 @@ CATEGORIES = [
     ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
     ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
     ("Telegram", ["TelePost", "TelePress", "pixivflow-telepost-deploy"]),
-    ("发布工具", ["Graf"]),
-    ("更多项目", ["NekoTime", "ludum", "ParaNote", "docsite", "releasegraph"]),
+    ("发布工具", ["releasegraph"]),
+    ("Skills", ["use-bash"]),
+    ("更多项目", ["Graf", "NekoTime", "ludum", "ParaNote", "docsite"]),
 ]
 
 # 一句话描述。没写到的仓库回退用 repo 自带 description。
@@ -40,6 +41,7 @@ DESC = {
     "NekoTime": "支持自定义 GIF 主题的桌面悬浮猫娘时钟",
     "ludum": "引擎无关、零运行时依赖的 TypeScript 游戏系统库",
     "docsite": "零依赖 docsify 文档站脚手架",
+    "use-bash": "让 AI 编程代理在 Windows 上默认用 bash 代替 PowerShell：一个 skill、一份 AGENTS.md",
 }
 
 DISPLAY_NAMES = {"releasegraph": "ReleaseGraph"}
@@ -137,3 +139,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
