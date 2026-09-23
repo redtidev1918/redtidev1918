@@ -42,6 +42,12 @@
 | :-- | :-- | :-: |
 | [**Graf**](https://github.com/redtidev1918/Graf) | 自托管 Markdown 发布平台，兼容 Telegraph API | [文档](https://redtidev1918.github.io/Graf/) |
 
+### AI 工具
+
+| Project | Description | Docs |
+| :-- | :-- | :-: |
+| [**win-to-unix**](https://github.com/redtidev1918/win-to-unix) | 让 AI 编程助手在 Windows 上用 bash 而不是卡在 PowerShell，修复 18 种反模式 | |
+
 ### 更多项目
 
 | Project | Description | Docs |
@@ -51,7 +57,6 @@
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 | [文档](https://redtidev1918.github.io/releasegraph/) |
-| [**win-to-unix**](https://github.com/redtidev1918/win-to-unix) | Fixes 18 anti-patterns that make AI coding agents get stuck on PowerShell instead of using bash on Windows. |  |
 <!-- REPOS_END -->
 
 ## 文档与下载
@@ -59,3 +64,4 @@
 - 上表里带「文档」链接的项目就有文档站，由 [docsite](https://github.com/redtidev1918/docsite) 生成
 - 站内「下载」页列出各平台安装包与校验方式，始终指向最新 Release
 - 其余产物与历史版本见各仓库 Releases
+
