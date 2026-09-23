@@ -13,7 +13,7 @@ each entry below links to its repository.
 - **Pixiv** — [PixivFlow](https://github.com/redtidev1918/PixivFlow) · [pixivflow-webui](https://github.com/redtidev1918/pixivflow-webui) · [pixiv-token-getter](https://github.com/redtidev1918/pixiv-token-getter)
 - **Telegram** — [TelePost](https://github.com/redtidev1918/TelePost) · [TelePress](https://github.com/redtidev1918/TelePress) · [pixivflow-telepost-deploy](https://github.com/redtidev1918/pixivflow-telepost-deploy)
 - **Publishing tools** — [Graf](https://github.com/redtidev1918/Graf)
-- **More projects** — [NekoTime](https://github.com/redtidev1918/NekoTime) · [ludum](https://github.com/redtidev1918/ludum) · [ParaNote](https://github.com/redtidev1918/ParaNote) · [docsite](https://github.com/redtidev1918/docsite) · [ReleaseGraph](https://github.com/redtidev1918/releasegraph)
+- **More projects** — [NekoTime](https://github.com/redtidev1918/NekoTime) · [ludum](https://github.com/redtidev1918/ludum) · [ParaNote](https://github.com/redtidev1918/ParaNote) · [docsite](https://github.com/redtidev1918/docsite) · [ReleaseGraph](https://github.com/redtidev1918/releasegraph) · [use-bash](https://github.com/redtidev1918/use-bash)
 
 ## Docs & downloads
 
