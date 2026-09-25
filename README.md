@@ -6,7 +6,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1790362929)
+![stats](generated/stats.svg?v=1790379029)
 
 ## 项目
 
@@ -57,6 +57,7 @@
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 | [文档](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
+| [**api-balance**](https://github.com/redtidev1918/api-balance) | 多Provider AI API 余额/配额 CLI | [文档](https://redtidev1918.github.io/api-balance/) |
 | [**JMBridge**](https://github.com/redtidev1918/JMBridge) | Small integration layer around jmcomic |  |
 <!-- REPOS_END -->
 
