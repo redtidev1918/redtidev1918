@@ -21,7 +21,7 @@ README_EN = "README.en.md"
 # 否则仓库会掉进「更多项目」。按产品族分组，方便不懂技术的人浏览。
 CATEGORIES = [
     ("DeviantArt", ["DAKit", "DAViewer", "DeviantDrop", "deviantart-downloader"]),
-    ("Pixiv", ["PixivFlow", "pixivflow-webui", "pixiv-token-getter"]),
+    ("Pixiv", ["PixivFlow", "pixivflow-desktop", "pixivflow-webui", "pixiv-token-getter"]),
     ("Telegram", ["TelePost", "TelePress", "pixivflow-telepost-deploy"]),
     ("发布工具", ["releasegraph"]),
     ("Skills", ["use-bash"]),
@@ -38,6 +38,7 @@ CAT_EN = {
 DESC = {
     "releasegraph": "基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器",
     "PixivFlow": "Pixiv 下载、筛选与自动收集工具，支持批量下载、定时任务和可靠 HTTP 交付",
+    "pixivflow-desktop": "PixivFlow 的桌面壳（Tauri）：管理后端生命周期、集成 WebUI，支持 Windows / macOS / Linux",
     "pixivflow-webui": "PixivFlow 的 Web 前端",
     "pixivflow-telepost-deploy": "PixivFlow + TelePost 的部署与运维套件",
     "pixiv-token-getter": "Pixiv API token 获取库与 CLI",
@@ -52,12 +53,15 @@ DESC = {
     "NekoTime": "支持自定义 GIF 主题的桌面悬浮猫娘时钟",
     "ludum": "引擎无关、零运行时依赖的 TypeScript 游戏系统库",
     "docsite": "零依赖 docsify 文档站脚手架",
+    "api-balance": "多 Provider AI API 余额与配额 CLI",
+    "JMBridge": "jmcomic 周边的实验性内容处理基础设施参考实现：可复制的状态机、持久任务、原子写入与资产账本模式",
     "use-bash": "让 AI 编程代理在 Windows 上默认用 bash 代替 PowerShell：一个 skill、一份 AGENTS.md",
 }
 
 DESC_EN = {
     "releasegraph": "Serverless, declarative DAG release orchestrator for multiple repos, built on GitHub Actions",
     "PixivFlow": "Pixiv downloader with filtering and auto-collection: batch downloads, scheduled tasks, reliable HTTP delivery",
+    "pixivflow-desktop": "Desktop shell (Tauri) for PixivFlow: manages the backend lifecycle and integrates the WebUI on Windows / macOS / Linux",
     "pixivflow-webui": "Web frontend for PixivFlow",
     "pixivflow-telepost-deploy": "Deployment and ops toolkit for PixivFlow + TelePost",
     "pixiv-token-getter": "Pixiv API token library and CLI",
@@ -72,10 +76,12 @@ DESC_EN = {
     "NekoTime": "Desktop floating catgirl clock with custom GIF themes",
     "ludum": "Engine-agnostic, zero-runtime-dependency TypeScript game systems library",
     "docsite": "Zero-dependency docsify docs site scaffold",
+    "api-balance": "Balance and quota CLI for multiple AI API providers",
+    "JMBridge": "Experimental reference implementation for content-processing infrastructure around jmcomic: copyable state machine, durable jobs, atomic writes and asset-ledger patterns",
     "use-bash": "Make AI coding agents default to bash over PowerShell on Windows: one skill, one AGENTS.md",
 }
 
-DISPLAY_NAMES = {"releasegraph": "ReleaseGraph"}
+DISPLAY_NAMES = {"releasegraph": "ReleaseGraph", "pixivflow-desktop": "PixivFlow Desktop"}
 
 def api(path):
     headers = {

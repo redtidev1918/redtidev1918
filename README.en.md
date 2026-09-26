@@ -25,6 +25,7 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
 | [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv downloader with filtering and auto-collection: batch downloads, scheduled tasks, reliable HTTP delivery | [Docs](https://redtidev1918.github.io/PixivFlow/) |
+| [**PixivFlow Desktop**](https://github.com/redtidev1918/pixivflow-desktop) | Desktop shell (Tauri) for PixivFlow: manages the backend lifecycle and integrates the WebUI on Windows / macOS / Linux | [Docs](https://redtidev1918.github.io/pixivflow-desktop/) |
 | [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | Web frontend for PixivFlow | [Docs](https://redtidev1918.github.io/pixivflow-webui/) |
 | [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv API token library and CLI | [Docs](https://redtidev1918.github.io/pixiv-token-getter/) |
 
@@ -57,6 +58,8 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 | [**ludum**](https://github.com/redtidev1918/ludum) | Engine-agnostic, zero-runtime-dependency TypeScript game systems library | [Docs](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | Web paragraph commenting service and universal reader, Telegram-independent | [Docs](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | Zero-dependency docsify docs site scaffold | [Docs](https://redtidev1918.github.io/docsite/) |
+| [**api-balance**](https://github.com/redtidev1918/api-balance) | Balance and quota CLI for multiple AI API providers | [Docs](https://redtidev1918.github.io/api-balance/) |
+| [**JMBridge**](https://github.com/redtidev1918/JMBridge) | Experimental reference implementation for content-processing infrastructure around jmcomic: copyable state machine, durable jobs, atomic writes and asset-ledger patterns |  |
 <!-- REPOS_EN_END -->
 
 ## Docs & downloads

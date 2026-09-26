@@ -25,6 +25,7 @@
 | Project | Description | Docs |
 | :-- | :-- | :-: |
 | [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv 下载、筛选与自动收集工具，支持批量下载、定时任务和可靠 HTTP 交付 | [文档](https://redtidev1918.github.io/PixivFlow/) |
+| [**PixivFlow Desktop**](https://github.com/redtidev1918/pixivflow-desktop) | PixivFlow 的桌面壳（Tauri）：管理后端生命周期、集成 WebUI，支持 Windows / macOS / Linux | [文档](https://redtidev1918.github.io/pixivflow-desktop/) |
 | [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | PixivFlow 的 Web 前端 | [文档](https://redtidev1918.github.io/pixivflow-webui/) |
 | [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv API token 获取库与 CLI | [文档](https://redtidev1918.github.io/pixiv-token-getter/) |
 
@@ -57,9 +58,8 @@
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 | [文档](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
-| [**api-balance**](https://github.com/redtidev1918/api-balance) | 多Provider AI API 余额/配额 CLI | [文档](https://redtidev1918.github.io/api-balance/) |
-| [**JMBridge**](https://github.com/redtidev1918/JMBridge) | Small integration layer around jmcomic |  |
-| [**pixivflow-desktop**](https://github.com/redtidev1918/pixivflow-desktop) | PixivFlow Desktop Shell (Tauri) - desktop entry for Win/macOS/Linux managing the pixivflow backend lifecycle + webui integration | [文档](https://redtidev1918.github.io/pixivflow-desktop/) |
+| [**api-balance**](https://github.com/redtidev1918/api-balance) | 多 Provider AI API 余额与配额 CLI | [文档](https://redtidev1918.github.io/api-balance/) |
+| [**JMBridge**](https://github.com/redtidev1918/JMBridge) | jmcomic 周边的实验性内容处理基础设施参考实现：可复制的状态机、持久任务、原子写入与资产账本模式 |  |
 <!-- REPOS_END -->
 
 ## 文档与下载
