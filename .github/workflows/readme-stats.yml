@@ -45,7 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 .github/scripts/gen_repos.py
-          if git diff --quiet -- README.md; then
+          if git diff --quiet -- README.md README.en.md; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -66,13 +66,15 @@ jobs:
           if git diff --quiet -- generated/stats.svg; then
             echo "stats.svg unchanged; skip cache bust"
           else
-            sed -i "s|generated/stats.svg?v=[0-9]*|generated/stats.svg?v=$(date +%s)|" README.md
+            # 两份 README 引用同一张 SVG：只刷中文那份会让英文页一直命中旧缓存
+            sed -i "s|generated/stats.svg?v=[0-9]*|generated/stats.svg?v=$(date +%s)|" README.md README.en.md
           fi
 
       - name: Commit generated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/ README.md
+          # README.en.md 必须一起 add：漏掉它会让英文索引永远停在最后一次手工提交
+          git add generated/ README.md README.en.md
           git diff --cached --quiet || git commit -m "Update profile stats [auto]"
           git push || echo "No changes."
