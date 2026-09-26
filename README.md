@@ -6,7 +6,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1790383672)
+![stats](generated/stats.svg?v=1790401210)
 
 ## 项目
 
@@ -59,6 +59,7 @@
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
 | [**api-balance**](https://github.com/redtidev1918/api-balance) | 多Provider AI API 余额/配额 CLI | [文档](https://redtidev1918.github.io/api-balance/) |
 | [**JMBridge**](https://github.com/redtidev1918/JMBridge) | Small integration layer around jmcomic |  |
+| [**pixivflow-desktop**](https://github.com/redtidev1918/pixivflow-desktop) | PixivFlow Desktop Shell (Tauri) - desktop entry for Win/macOS/Linux managing the pixivflow backend lifecycle + webui integration |  |
 <!-- REPOS_END -->
 
 ## 文档与下载
