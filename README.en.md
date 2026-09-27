@@ -6,7 +6,7 @@ Mostly vibe-coding projects that interest me.
 
 The work is centered on content-platform tooling, plus some desktop apps, CLI / SDKs, and game-related projects.
 
-![stats](generated/stats.svg?v=1790540569)
+![stats](generated/stats.svg?v=1790543342)
 
 ## Projects
 
