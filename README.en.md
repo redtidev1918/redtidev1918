@@ -43,12 +43,6 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 | :-- | :-- | :-: |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | Serverless, declarative DAG release orchestrator for multiple repos, built on GitHub Actions | [Docs](https://redtidev1918.github.io/releasegraph/) |
 
-### Skills
-
-| Project | Description | Docs |
-| :-- | :-- | :-: |
-| [**use-bash**](https://github.com/redtidev1918/use-bash) | Make AI coding agents default to bash over PowerShell on Windows: one skill, one AGENTS.md | [Docs](https://redtidev1918.github.io/use-bash/) |
-
 ### More projects
 
 | Project | Description | Docs |
@@ -58,8 +52,6 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 | [**ludum**](https://github.com/redtidev1918/ludum) | Engine-agnostic, zero-runtime-dependency TypeScript game systems library | [Docs](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | Web paragraph commenting service and universal reader, Telegram-independent | [Docs](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | Zero-dependency docsify docs site scaffold | [Docs](https://redtidev1918.github.io/docsite/) |
-| [**api-balance**](https://github.com/redtidev1918/api-balance) | Balance and quota CLI for multiple AI API providers | [Docs](https://redtidev1918.github.io/api-balance/) |
-| [**JMBridge**](https://github.com/redtidev1918/JMBridge) | Experimental reference implementation for content-processing infrastructure around jmcomic: copyable state machine, durable jobs, atomic writes and asset-ledger patterns |  |
 <!-- REPOS_EN_END -->
 
 ## Docs & downloads

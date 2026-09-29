@@ -43,12 +43,6 @@
 | :-- | :-- | :-: |
 | [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | 基于 GitHub Actions 的无服务器、声明式 DAG 多仓库发布编排器 | [文档](https://redtidev1918.github.io/releasegraph/) |
 
-### Skills
-
-| Project | Description | Docs |
-| :-- | :-- | :-: |
-| [**use-bash**](https://github.com/redtidev1918/use-bash) | 让 AI 编程代理在 Windows 上默认用 bash 代替 PowerShell：一个 skill、一份 AGENTS.md | [文档](https://redtidev1918.github.io/use-bash/) |
-
 ### 更多项目
 
 | Project | Description | Docs |
@@ -58,8 +52,6 @@
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 | [文档](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
-| [**api-balance**](https://github.com/redtidev1918/api-balance) | 多 Provider AI API 余额与配额 CLI | [文档](https://redtidev1918.github.io/api-balance/) |
-| [**JMBridge**](https://github.com/redtidev1918/JMBridge) | jmcomic 周边的实验性内容处理基础设施参考实现：可复制的状态机、持久任务、原子写入与资产账本模式 |  |
 <!-- REPOS_END -->
 
 ## 文档与下载

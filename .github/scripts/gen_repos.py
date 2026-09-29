@@ -24,7 +24,6 @@ CATEGORIES = [
     ("Pixiv", ["PixivFlow", "pixivflow-desktop", "pixivflow-webui", "pixiv-token-getter"]),
     ("Telegram", ["TelePost", "TelePress", "pixivflow-telepost-deploy"]),
     ("发布工具", ["releasegraph"]),
-    ("Skills", ["use-bash"]),
     ("更多项目", ["Graf", "NekoTime", "ludum", "ParaNote", "docsite"]),
 ]
 
@@ -53,9 +52,6 @@ DESC = {
     "NekoTime": "支持自定义 GIF 主题的桌面悬浮猫娘时钟",
     "ludum": "引擎无关、零运行时依赖的 TypeScript 游戏系统库",
     "docsite": "零依赖 docsify 文档站脚手架",
-    "api-balance": "多 Provider AI API 余额与配额 CLI",
-    "JMBridge": "jmcomic 周边的实验性内容处理基础设施参考实现：可复制的状态机、持久任务、原子写入与资产账本模式",
-    "use-bash": "让 AI 编程代理在 Windows 上默认用 bash 代替 PowerShell：一个 skill、一份 AGENTS.md",
 }
 
 DESC_EN = {
@@ -76,9 +72,6 @@ DESC_EN = {
     "NekoTime": "Desktop floating catgirl clock with custom GIF themes",
     "ludum": "Engine-agnostic, zero-runtime-dependency TypeScript game systems library",
     "docsite": "Zero-dependency docsify docs site scaffold",
-    "api-balance": "Balance and quota CLI for multiple AI API providers",
-    "JMBridge": "Experimental reference implementation for content-processing infrastructure around jmcomic: copyable state machine, durable jobs, atomic writes and asset-ledger patterns",
-    "use-bash": "Make AI coding agents default to bash over PowerShell on Windows: one skill, one AGENTS.md",
 }
 
 DISPLAY_NAMES = {"releasegraph": "ReleaseGraph", "pixivflow-desktop": "PixivFlow Desktop"}
@@ -132,7 +125,13 @@ TABLE_HEAD = ["| Project | Description | Docs |", "| :-- | :-- | :-: |"]
 
 
 def build(repos, lang):
-    by_name = {r["name"]: r for r in repos if not r.get("fork") and r["name"] != USER}
+    # 只列公开仓库：私有仓库不该出现在公开 profile README 上（外部访问会 404），
+    # 也在权限上挡住 repo-scoped GITHUB_TOKEN 拿不到私有仓库的情况。
+    by_name = {
+        r["name"]: r
+        for r in repos
+        if not r.get("fork") and not r.get("private") and r["name"] != USER
+    }
     listed = [n for _, names in CATEGORIES for n in names]
     more_label = "更多项目" if lang == "zh" else "More projects"
 
