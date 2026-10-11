@@ -6,7 +6,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1791685319)
+![stats](generated/stats.svg?v=1791686350)
 
 ## 项目
 
@@ -52,6 +52,7 @@
 | [**ludum**](https://github.com/redtidev1918/ludum) | 引擎无关、零运行时依赖的 TypeScript 游戏系统库 | [文档](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | 网页段落评论服务 + 通用阅读器，与 Telegram 无关 | [文档](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | 零依赖 docsify 文档站脚手架 | [文档](https://redtidev1918.github.io/docsite/) |
+| [**use-bash**](https://github.com/redtidev1918/use-bash) | 让 AI 编码代理在 Windows 上默认使用 bash：一个 skill、一个 AGENTS.md，文本与文件操作零 PowerShell |  |
 <!-- REPOS_END -->
 
 ## 文档与下载
