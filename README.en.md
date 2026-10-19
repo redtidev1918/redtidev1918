@@ -52,7 +52,6 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 | [**ludum**](https://github.com/redtidev1918/ludum) | Engine-agnostic, zero-runtime-dependency TypeScript game systems library | [Docs](https://redtidev1918.github.io/ludum/) |
 | [**ParaNote**](https://github.com/redtidev1918/ParaNote) | Web paragraph commenting service and universal reader, Telegram-independent | [Docs](https://redtidev1918.github.io/ParaNote/) |
 | [**docsite**](https://github.com/redtidev1918/docsite) | Zero-dependency docsify docs site scaffold | [Docs](https://redtidev1918.github.io/docsite/) |
-| [**use-bash**](https://github.com/redtidev1918/use-bash) | 让 AI 编码代理在 Windows 上默认使用 bash：一个 skill、一个 AGENTS.md，文本与文件操作零 PowerShell |  |
 <!-- REPOS_EN_END -->
 
 ## Docs & downloads

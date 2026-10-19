@@ -18,6 +18,6 @@
     "ludum": {"showcase": true},
     "ParaNote": {"showcase": true},
     "docsite": {"showcase": true},
-    "use-bash": {"showcase": true}
+    "use-bash": {"showcase": false}
   }
 }
