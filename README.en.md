@@ -15,7 +15,6 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
-| [**DAKit**](https://github.com/redtidev1918/DAKit) | Modular DeviantArt client SDK for Dart / Flutter | [Docs](https://redtidev1918.github.io/DAKit/) |
 | [**DAViewer**](https://github.com/redtidev1918/DAViewer) | Open-source DeviantArt client for Android / macOS / Windows | [Docs](https://redtidev1918.github.io/DAViewer/) |
 | [**DeviantDrop**](https://github.com/redtidev1918/DeviantDrop) | Telegram bot: send a DeviantArt link, get the original image/video/GIF back with the source page | [Docs](https://redtidev1918.github.io/DeviantDrop/) |
 | [**deviantart-downloader**](https://github.com/redtidev1918/deviantart-downloader) | Bulk downloader for DeviantArt | [Docs](https://redtidev1918.github.io/deviantart-downloader/) |
@@ -25,23 +24,12 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
 | [**PixivFlow**](https://github.com/redtidev1918/PixivFlow) | Pixiv downloader with filtering and auto-collection: batch downloads, scheduled tasks, reliable HTTP delivery | [Docs](https://redtidev1918.github.io/PixivFlow/) |
-| [**PixivFlow Desktop**](https://github.com/redtidev1918/pixivflow-desktop) | Desktop shell (Tauri) for PixivFlow: manages the backend lifecycle and integrates the WebUI on Windows / macOS / Linux | [Docs](https://redtidev1918.github.io/pixivflow-desktop/) |
-| [**pixivflow-webui**](https://github.com/redtidev1918/pixivflow-webui) | Web frontend for PixivFlow | [Docs](https://redtidev1918.github.io/pixivflow-webui/) |
-| [**pixiv-token-getter**](https://github.com/redtidev1918/pixiv-token-getter) | Pixiv API token library and CLI | [Docs](https://redtidev1918.github.io/pixiv-token-getter/) |
 
 ### Telegram
 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
 | [**TelePost**](https://github.com/redtidev1918/TelePost) | Telegram channel posting, review and automation platform | [Docs](https://redtidev1918.github.io/TelePost/) |
-| [**TelePress**](https://github.com/redtidev1918/TelePress) | Python library and CLI for publishing text, images and archives to Telegraph | [Docs](https://redtidev1918.github.io/TelePress/) |
-| [**pixivflow-telepost-deploy**](https://github.com/redtidev1918/pixivflow-telepost-deploy) | Deployment and ops toolkit for PixivFlow + TelePost | [Docs](https://redtidev1918.github.io/pixivflow-telepost-deploy/) |
-
-### Publishing tools
-
-| Project | Description | Docs |
-| :-- | :-- | :-: |
-| [**ReleaseGraph**](https://github.com/redtidev1918/releasegraph) | Serverless, declarative DAG release orchestrator for multiple repos, built on GitHub Actions | [Docs](https://redtidev1918.github.io/releasegraph/) |
 
 ### More projects
 
@@ -49,9 +37,6 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 | :-- | :-- | :-: |
 | [**Graf**](https://github.com/redtidev1918/Graf) | Self-hosted Markdown publishing platform, Telegraph API compatible | [Docs](https://redtidev1918.github.io/Graf/) |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | Desktop floating catgirl clock with custom GIF themes | [Docs](https://redtidev1918.github.io/NekoTime/) |
-| [**ludum**](https://github.com/redtidev1918/ludum) | Engine-agnostic, zero-runtime-dependency TypeScript game systems library | [Docs](https://redtidev1918.github.io/ludum/) |
-| [**ParaNote**](https://github.com/redtidev1918/ParaNote) | Web paragraph commenting service and universal reader, Telegram-independent | [Docs](https://redtidev1918.github.io/ParaNote/) |
-| [**docsite**](https://github.com/redtidev1918/docsite) | Zero-dependency docsify docs site scaffold | [Docs](https://redtidev1918.github.io/docsite/) |
 <!-- REPOS_EN_END -->
 
 ## Docs & downloads

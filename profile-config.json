@@ -1,23 +1,23 @@
 {
   "defaults": {"showcase": false, "stats": true, "notify": false},
   "repositories": {
-    "DAKit": {"showcase": true},
+    "DAKit": {"showcase": false},
     "DAViewer": {"showcase": true},
     "DeviantDrop": {"showcase": true},
     "deviantart-downloader": {"showcase": true},
     "PixivFlow": {"showcase": true},
-    "pixivflow-desktop": {"showcase": true},
-    "pixivflow-webui": {"showcase": true},
-    "pixiv-token-getter": {"showcase": true},
+    "pixivflow-desktop": {"showcase": false},
+    "pixivflow-webui": {"showcase": false},
+    "pixiv-token-getter": {"showcase": false},
     "TelePost": {"showcase": true},
-    "TelePress": {"showcase": true},
-    "pixivflow-telepost-deploy": {"showcase": true},
-    "releasegraph": {"showcase": true},
+    "TelePress": {"showcase": false},
+    "pixivflow-telepost-deploy": {"showcase": false},
+    "releasegraph": {"showcase": false},
     "Graf": {"showcase": true},
     "NekoTime": {"showcase": true},
-    "ludum": {"showcase": true},
-    "ParaNote": {"showcase": true},
-    "docsite": {"showcase": true},
+    "ludum": {"showcase": false},
+    "ParaNote": {"showcase": false},
+    "docsite": {"showcase": false},
     "use-bash": {"showcase": false}
   }
 }
