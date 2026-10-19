@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 2 * * *"   # 每天 UTC 02:17（北京 10:17）
   workflow_dispatch:
+    inputs:
+      sync_notifications:
+        description: 'Install/update notifications only for repositories opted in via profile-config.json'
+        type: boolean
+        default: false
   repository_dispatch:
     types: [update-readme]
   push:
@@ -26,6 +31,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+
+      - name: Validate repository policy
+        run: python3 -m unittest discover -s tests
 
       - name: Install tokei
         run: |
@@ -51,10 +59,9 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # 只有仓库列表真的变了才跑 sync：它要逐个仓库调 GitHub API，
-      # 每天固定跑一次纯属浪费配额；新仓库出现时才需要接通知。
+      # Cross-repository writes require an explicit manual run and per-repo opt-in.
       - name: Wire new repos (notify workflow + token)
-        if: steps.repos.outputs.changed == 'true'
+        if: github.event_name == 'workflow_dispatch' && inputs.sync_notifications
         env:
           SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: python3 .github/scripts/sync_repos.py
@@ -77,4 +84,4 @@ jobs:
           # README.en.md 必须一起 add：漏掉它会让英文索引永远停在最后一次手工提交
           git add generated/ README.md README.en.md
           git diff --cached --quiet || git commit -m "Update profile stats [auto]"
-          git push || echo "No changes."
+          git push

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Keep every non-fork repo wired to the profile README.
+"""Explicitly wire opted-in public repositories to the profile README.
 
 For each repo: ensure .github/workflows/notify-profile.yml exists (create/update it)
-and the PROFILE_REPO_TOKEN secret is set. New repos get wired automatically.
+and the PROFILE_REPO_TOKEN secret is set. Disabled repos are not modified.
 
 Runs in the profile repo's workflow. Needs SYNC_TOKEN (a PAT with repo scope).
 Uses the gh CLI (pre-installed on the runner) so secret encryption is handled for us.
@@ -10,6 +10,8 @@ Uses the gh CLI (pre-installed on the runner) so secret encryption is handled fo
 import base64
 import os
 import subprocess
+import json
+from profile_policy import load_policy, selected
 
 USER = "redtidev1918"
 TOKEN = os.environ["SYNC_TOKEN"]
@@ -46,13 +48,15 @@ def gh(*args, input=None):
 
 
 def list_repos():
-    r = gh("api", f"users/{USER}/repos?per_page=100&type=owner",
-           "--jq", ".[] | select(.fork==false) | [.name,.default_branch] | @tsv")
+    policy = load_policy()
+    r = gh("api", f"users/{USER}/repos?per_page=100&type=owner", "--paginate", "--slurp")
+    if r.returncode:
+        raise RuntimeError("Unable to list repositories: " + r.stderr)
     repos = []
-    for line in r.stdout.splitlines():
-        parts = line.split("\t")
-        if len(parts) == 2 and parts[0] != USER:
-            repos.append((parts[0], parts[1]))
+    for page in json.loads(r.stdout):
+        for repo in page:
+            if selected(repo, "notify", policy, USER):
+                repos.append((repo["name"], repo["default_branch"]))
     return repos
 
 
@@ -69,22 +73,30 @@ def ensure_workflow(name, branch):
             existing = base64.b64decode(r2.stdout.strip()).decode()
             if existing == wf:
                 return "ok"
-        gh("api", "-X", "PUT", f"repos/{USER}/{name}/contents/{WF_PATH}",
+        result = gh("api", "-X", "PUT", f"repos/{USER}/{name}/contents/{WF_PATH}",
            "-f", "message=auto: wire notify-profile", "-f", f"content={b64}",
            "-f", f"branch={branch}", "-f", f"sha={sha}")
+        if result.returncode:
+            raise RuntimeError(f"Cannot update notification workflow for {name}")
         return "updated"
-    gh("api", "-X", "PUT", f"repos/{USER}/{name}/contents/{WF_PATH}",
+    result = gh("api", "-X", "PUT", f"repos/{USER}/{name}/contents/{WF_PATH}",
        "-f", "message=auto: wire notify-profile", "-f", f"content={b64}",
        "-f", f"branch={branch}")
+    if result.returncode:
+        raise RuntimeError(f"Cannot create notification workflow for {name}")
     return "created"
 
 
 def ensure_secret(name):
     r = gh("secret", "list", "--repo", f"{USER}/{name}")
+    if r.returncode:
+        raise RuntimeError(f"Cannot inspect notification secret for {name}")
     if SECRET in r.stdout:
         return "ok"
     r2 = gh("secret", "set", SECRET, "--repo", f"{USER}/{name}", input=TOKEN)
-    return "set" if r2.returncode == 0 else "fail"
+    if r2.returncode:
+        raise RuntimeError(f"Cannot set notification secret for {name}")
+    return "set"
 
 
 def main():

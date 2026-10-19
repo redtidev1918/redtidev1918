@@ -1,0 +1,23 @@
+{
+  "defaults": {"showcase": false, "stats": true, "notify": false},
+  "repositories": {
+    "DAKit": {"showcase": true},
+    "DAViewer": {"showcase": true},
+    "DeviantDrop": {"showcase": true},
+    "deviantart-downloader": {"showcase": true},
+    "PixivFlow": {"showcase": true},
+    "pixivflow-desktop": {"showcase": true},
+    "pixivflow-webui": {"showcase": true},
+    "pixiv-token-getter": {"showcase": true},
+    "TelePost": {"showcase": true},
+    "TelePress": {"showcase": true},
+    "pixivflow-telepost-deploy": {"showcase": true},
+    "releasegraph": {"showcase": true},
+    "Graf": {"showcase": true},
+    "NekoTime": {"showcase": true},
+    "ludum": {"showcase": true},
+    "ParaNote": {"showcase": true},
+    "docsite": {"showcase": true},
+    "use-bash": {"showcase": true}
+  }
+}

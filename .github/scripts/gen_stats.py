@@ -12,6 +12,7 @@ import shutil
 import subprocess
 import tempfile
 import urllib.request
+from profile_policy import load_policy, selected
 
 USER = "redtidev1918"
 OUT = "generated/stats.svg"
@@ -48,6 +49,8 @@ def list_repos():
 
 
 def count_loc(repos):
+    if not repos:
+        return 0
     workdir = tempfile.mkdtemp(prefix="profile-loc-")
     try:
         for repo in repos:
@@ -101,11 +104,12 @@ def render(rows):
 
 
 def main():
+    policy = load_policy()
     repos = list_repos()
-    mine = [r for r in repos if not r.get("fork")]
+    mine = [r for r in repos if selected(r, "stats", policy, USER)]
 
-    stars = sum(r.get("stargazers_count", 0) for r in repos)
-    forks = sum(r.get("forks_count", 0) for r in repos)
+    stars = sum(r.get("stargazers_count", 0) for r in mine)
+    forks = sum(r.get("forks_count", 0) for r in mine)
     loc = count_loc(mine)
 
     rows = [

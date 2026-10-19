@@ -57,6 +57,8 @@
 
 ## 文档与下载
 
+主页项目列表由配置控制：[收录、统计与自动刷新设置](PROFILE-AUTOMATION.md)。
+
 - 上表里带「文档」链接的项目就有文档站，由 [docsite](https://github.com/redtidev1918/docsite) 生成
 - 站内「下载」页列出各平台安装包与校验方式，始终指向最新 Release
 - 其余产物与历史版本见各仓库 Releases

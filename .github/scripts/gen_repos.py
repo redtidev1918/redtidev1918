@@ -2,8 +2,8 @@
 """Auto-generate the project index in README.md (zh) and README.en.md (en)
 from the GitHub API.
 
-New unlisted repos show up automatically at the end (under 更多项目 / More
-projects). Only the sections between the REPOS markers are touched:
+Only repositories enabled by profile-config.json are shown. Enabled repos
+without a category appear under More projects. Only marked sections are touched:
 
   README.md    <!-- REPOS_START -->    ... <!-- REPOS_END -->
   README.en.md <!-- REPOS_EN_START -->  ... <!-- REPOS_EN_END -->
@@ -12,6 +12,7 @@ import json
 import os
 import re
 import urllib.request
+from profile_policy import load_policy, selected
 
 USER = "redtidev1918"
 README = "README.md"
@@ -124,13 +125,15 @@ def line(repo, lang):
 TABLE_HEAD = ["| Project | Description | Docs |", "| :-- | :-- | :-: |"]
 
 
-def build(repos, lang):
+def build(repos, lang, policy=None):
+    if policy is None:
+        policy = load_policy()
     # 只列公开仓库：私有仓库不该出现在公开 profile README 上（外部访问会 404），
     # 也在权限上挡住 repo-scoped GITHUB_TOKEN 拿不到私有仓库的情况。
     by_name = {
         r["name"]: r
         for r in repos
-        if not r.get("fork") and not r.get("private") and r["name"] != USER
+        if selected(r, "showcase", policy, USER)
     }
     listed = [n for _, names in CATEGORIES for n in names]
     more_label = "更多项目" if lang == "zh" else "More projects"
@@ -170,9 +173,10 @@ def apply(path, marker_name, section):
 
 
 def main():
+    policy = load_policy()
     repos = list_repos()
-    apply(README, "REPOS", build(repos, "zh"))
-    apply(README_EN, "REPOS_EN", build(repos, "en"))
+    apply(README, "REPOS", build(repos, "zh", policy))
+    apply(README_EN, "REPOS_EN", build(repos, "en", policy))
     print("updated repo lists (README.md, README.en.md)")
 
 
