@@ -6,7 +6,7 @@ Mostly vibe-coding projects that interest me.
 
 The work is centered on content-platform tooling, plus some desktop apps, CLI / SDKs, and game-related projects.
 
-![stats](generated/stats.svg?v=1793091823)
+![stats](generated/stats.svg?v=1793176534)
 
 ## Projects
 
@@ -35,7 +35,6 @@ The work is centered on content-platform tooling, plus some desktop apps, CLI / 
 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
-| [**Graf**](https://github.com/redtidev1918/Graf) | Self-hosted Markdown publishing platform, Telegraph API compatible | [Docs](https://redtidev1918.github.io/Graf/) |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | Desktop floating catgirl clock with custom GIF themes | [Docs](https://redtidev1918.github.io/NekoTime/) |
 <!-- REPOS_EN_END -->
 

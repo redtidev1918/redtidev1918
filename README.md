@@ -6,7 +6,7 @@
 
 目前以内容平台相关工具为主，也会做桌面应用、CLI / SDK 和游戏相关项目。
 
-![stats](generated/stats.svg?v=1793091823)
+![stats](generated/stats.svg?v=1793176534)
 
 ## 项目
 
@@ -35,7 +35,6 @@
 
 | Project | Description | Docs |
 | :-- | :-- | :-: |
-| [**Graf**](https://github.com/redtidev1918/Graf) | 自托管 Markdown 发布平台，兼容 Telegraph API | [文档](https://redtidev1918.github.io/Graf/) |
 | [**NekoTime**](https://github.com/redtidev1918/NekoTime) | 支持自定义 GIF 主题的桌面悬浮猫娘时钟 | [文档](https://redtidev1918.github.io/NekoTime/) |
 <!-- REPOS_END -->
 
